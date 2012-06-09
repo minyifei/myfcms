@@ -1,0 +1,22 @@
+[ 2012-06-02T15:24:00+08:00 ] /myfcms/index.php?m=Html&a=test | INFO: Tag[ app_begin ] --START--
+[ 2012-06-02T15:24:00+08:00 ] /myfcms/index.php?m=Html&a=test | INFO: Run ReadHtmlCache Behavior [ RunTime:0.012082s ]
+[ 2012-06-02T15:24:00+08:00 ] /myfcms/index.php?m=Html&a=test | INFO: Tag[ app_begin ] --END-- [ RunTime:0.027909s ]
+[ 2012-06-02T15:24:00+08:00 ] /myfcms/index.php?m=Html&a=test | SQL: show tables from myfcmsv11 [ RunTime:0.001711s ]
+[ 2012-06-02T15:24:00+08:00 ] /myfcms/index.php?m=Html&a=test | SQL: show columns from myf_admin [ RunTime:0.055312s ]
+[ 2012-06-02T15:24:00+08:00 ] /myfcms/index.php?m=Html&a=test | NOTIC: [8] Undefined variable: sql HtmlAction.class.php 第 174 行.
+[ 2012-06-02T15:24:00+08:00 ] /myfcms/index.php?m=Html&a=test | SQL: show columns from myf_archives [ RunTime:0.034271s ]
+[ 2012-06-02T15:24:00+08:00 ] /myfcms/index.php?m=Html&a=test | SQL: show columns from myf_arctype [ RunTime:0.035563s ]
+[ 2012-06-02T15:24:00+08:00 ] /myfcms/index.php?m=Html&a=test | SQL: show columns from myf_co_html [ RunTime:0.030976s ]
+[ 2012-06-02T15:24:00+08:00 ] /myfcms/index.php?m=Html&a=test | SQL: show columns from myf_co_node [ RunTime:0.015116s ]
+[ 2012-06-02T15:24:00+08:00 ] /myfcms/index.php?m=Html&a=test | SQL: show columns from myf_flink [ RunTime:0.062477s ]
+[ 2012-06-02T15:24:00+08:00 ] /myfcms/index.php?m=Html&a=test | SQL: show columns from myf_moban [ RunTime:0.023264s ]
+[ 2012-06-02T15:24:00+08:00 ] /myfcms/index.php?m=Html&a=test | SQL: show columns from myf_sys [ RunTime:0.018705s ]
+[ 2012-06-02T15:24:00+08:00 ] /myfcms/index.php?m=Html&a=test | SQL: select * from myf_admin [ RunTime:0.006262s ]
+[ 2012-06-02T15:24:00+08:00 ] /myfcms/index.php?m=Html&a=test | NOTIC: [8] Undefined variable: sql HtmlAction.class.php 第 233 行.
+[ 2012-06-02T15:24:00+08:00 ] /myfcms/index.php?m=Html&a=test | SQL: select * from myf_archives [ RunTime:0.017274s ]
+[ 2012-06-02T15:24:00+08:00 ] /myfcms/index.php?m=Html&a=test | SQL: select * from myf_arctype [ RunTime:0.013345s ]
+[ 2012-06-02T15:24:00+08:00 ] /myfcms/index.php?m=Html&a=test | SQL: select * from myf_co_html [ RunTime:0.015786s ]
+[ 2012-06-02T15:24:00+08:00 ] /myfcms/index.php?m=Html&a=test | SQL: select * from myf_co_node [ RunTime:0.001517s ]
+[ 2012-06-02T15:24:00+08:00 ] /myfcms/index.php?m=Html&a=test | SQL: select * from myf_flink [ RunTime:0.000819s ]
+[ 2012-06-02T15:24:00+08:00 ] /myfcms/index.php?m=Html&a=test | SQL: select * from myf_moban [ RunTime:0.025528s ]
+[ 2012-06-02T15:24:00+08:00 ] /myfcms/index.php?m=Html&a=test | SQL: select * from myf_sys [ RunTime:0.001816s ]

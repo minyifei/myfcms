@@ -1,0 +1,12 @@
+# BEGIN WinBlog
+<IfModule mod_rewrite.c>
+RewriteEngine On
+Options All -Indexes 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+<Directory>
+    Order Deny,Allow
+    Deny from all
+</Directory>
+</IfModule>
+# END WinBlog

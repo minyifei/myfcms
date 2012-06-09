@@ -1,0 +1,185 @@
+[ 2012-06-01T23:51:45+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | INFO: Tag[ app_begin ] --START--
+[ 2012-06-01T23:51:45+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.004576s ]
+[ 2012-06-01T23:51:45+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.004960s ]
+[ 2012-06-01T23:51:45+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Undefined index:  typeid HtmlAction.class.php 第 66 行.
+[ 2012-06-01T23:51:45+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Undefined index:  startId HtmlAction.class.php 第 67 行.
+[ 2012-06-01T23:51:45+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Undefined index:  endId HtmlAction.class.php 第 68 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_archives` [ RunTime:0.010278s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_archives` WHERE ( `id` = '13' ) LIMIT 1   [ RunTime:0.005728s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.010934s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.006439s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_archives` WHERE typeid=7 and id<13 ORDER BY id desc LIMIT 1   [ RunTime:0.001882s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.011156s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.005757s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_archives` WHERE typeid=7 and id>13 LIMIT 1   [ RunTime:0.001567s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009797s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.005992s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009879s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.005721s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_sys` [ RunTime:0.009073s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_sys` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.005971s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_sys` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.001326s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: UPDATE `myf_archives` SET `click`=click+1 WHERE id=13 [ RunTime:0.001032s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: UPDATE `myf_archives` SET `ishtml`=1 WHERE id=13 [ RunTime:0.000719s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | INFO: Tag[ view_template ] --START--
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | INFO: Run LocationTemplate Behavior [ RunTime:0.010118s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | INFO: Tag[ view_template ] --END-- [ RunTime:0.010405s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | INFO: Tag[ view_parse ] --START--
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Undefined index:  type TagLibMyfcms.class.php 第 75 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Undefined index:  limit TagLibMyfcms.class.php 第 87 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Undefined index:  type TagLibMyfcms.class.php 第 75 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Undefined index:  limit TagLibMyfcms.class.php 第 87 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Undefined index:  type TagLibMyfcms.class.php 第 75 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Undefined index:  limit TagLibMyfcms.class.php 第 87 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Undefined index:  urltype TagLibMyfcms.class.php 第 174 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Undefined index:  flag TagLibMyfcms.class.php 第 191 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Undefined index:  noflag TagLibMyfcms.class.php 第 198 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Undefined index:  urltype TagLibMyfcms.class.php 第 174 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Undefined index:  flag TagLibMyfcms.class.php 第 191 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Undefined index:  noflag TagLibMyfcms.class.php 第 198 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_sys` WHERE name='cfg_webname'  [ RunTime:0.001956s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant value - assumed 'value' b0aaa8ff64489e1167c404b6d1eaf193.php 第 8 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT `id`,`topid`,`sortrank`,`typename`,`typedir`,`arcnamerule`,`listnamerule`,`classname`,`methodname`,`keywords`,`seotitle`,`description`,`typepro` FROM `myf_arctype` WHERE 1=1  and topid=0 ORDER BY sortrank asc  [ RunTime:0.001517s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 28 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Undefined index:  protype b0aaa8ff64489e1167c404b6d1eaf193.php 第 28 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 28 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Undefined index:  protype b0aaa8ff64489e1167c404b6d1eaf193.php 第 28 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 28 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Undefined index:  protype b0aaa8ff64489e1167c404b6d1eaf193.php 第 28 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 28 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Undefined index:  protype b0aaa8ff64489e1167c404b6d1eaf193.php 第 28 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 28 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Undefined index:  protype b0aaa8ff64489e1167c404b6d1eaf193.php 第 28 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 28 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Undefined index:  protype b0aaa8ff64489e1167c404b6d1eaf193.php 第 28 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 28 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Undefined index:  protype b0aaa8ff64489e1167c404b6d1eaf193.php 第 28 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT `id`,`topid`,`sortrank`,`typename`,`typedir`,`arcnamerule`,`listnamerule`,`classname`,`methodname`,`keywords`,`seotitle`,`description`,`typepro` FROM `myf_arctype` WHERE 1=1  and topid=0 ORDER BY sortrank asc  [ RunTime:0.001680s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 53 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 53 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 53 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 53 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 53 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 53 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 53 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT `id`,`topid`,`sortrank`,`typename`,`typedir`,`arcnamerule`,`listnamerule`,`classname`,`methodname`,`keywords`,`seotitle`,`description`,`typepro` FROM `myf_arctype` WHERE 1=1  and topid=1 ORDER BY sortrank asc  [ RunTime:0.001105s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 61 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 61 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE topid=1  [ RunTime:0.000903s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant id - assumed 'id' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant id - assumed 'id' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_archives` [ RunTime:0.016461s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT `id`,`typeid`,`typename`,`flag`,`click`,`title`,`color`,`writer`,`source`,`litpic`,`keywords`,`description`,`sendtime`,`goodpost`,`badpost`,`adminid`,`adminname`,`ishtml` FROM `myf_archives` WHERE 1=1 and typeid in(1,7,8) ORDER BY click desc LIMIT 10   [ RunTime:0.001963s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009583s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.004663s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009998s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.004560s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009395s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.005224s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009430s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.004741s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009820s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.009814s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009353s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.004430s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009753s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.004343s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009650s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.001080s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009918s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.004916s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.015340s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.004723s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' b0aaa8ff64489e1167c404b6d1eaf193.php 第 104 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE topid=1  [ RunTime:0.001298s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant id - assumed 'id' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant id - assumed 'id' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_archives` [ RunTime:0.010635s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT `id`,`typeid`,`typename`,`flag`,`click`,`title`,`color`,`writer`,`source`,`litpic`,`keywords`,`description`,`sendtime`,`goodpost`,`badpost`,`adminid`,`adminname`,`ishtml` FROM `myf_archives` WHERE 1=1 and typeid in(1,7,8) ORDER BY rand() LIMIT 10   [ RunTime:0.006632s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009534s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.004637s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009186s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003865s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009450s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.005045s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009922s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.004727s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009342s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.015355s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009874s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.004022s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009756s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.001050s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009855s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003627s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009411s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003391s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009734s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.007825s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' b0aaa8ff64489e1167c404b6d1eaf193.php 第 112 行.
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | INFO: Run ParseTemplate Behavior [ RunTime:0.555167s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.555409s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | INFO: Tag[ view_filter ] --START--
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | INFO: Run ContentReplace Behavior [ RunTime:0.004186s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | INFO: Run TokenBuild Behavior [ RunTime:0.004723s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.003500s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | INFO: Run ShowRuntime Behavior [ RunTime:0.004358s ]
+[ 2012-06-01T23:51:46+08:00 ] /myfcms/index.php?m=Html&a=archive&id=13 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.017475s ]

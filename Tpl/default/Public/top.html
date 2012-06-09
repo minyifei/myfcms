@@ -1,0 +1,62 @@
+<div class="top">
+	<div class="header">
+		<div class="logo">
+			<a href="__MYFCMS__/"> <img src="__MYFCMSPUBLIC__/images/logo.jpg" /> </a>
+		</div>
+		<div class="search">
+			<form action="{$myfcms.searchurl}" method="get">
+				<ul>
+					<li>
+						<select name="tid" class="searchsel">
+							<option value="0"> 选择栏目 </option>
+							<myfcms:channel id="toptype" topid="0" >
+								<if condition="($toptype.protype eq 0) OR ($toptype.protype eq 1) ">
+									<option value="{$toptype.id}"> {$toptype.typename} </option>
+								</if>
+							</myfcms:channel>
+						</select>
+					</li>
+					<li>
+						<input name="keyword" id="search-keyword" onblur="if(value ==''){value='请输入关键字'}" onclick="if(this.value=='请输入关键字')this.value=''" onmouseover="this.focus()" value="请输入关键字" size="20" class="searchtxt"><input type="hidden" name="m" value="Search" /><input type="hidden" name="a" value="index" />
+					</li>
+					<li>
+						<input type="submit" class="searchbtn" value="搜索" />
+					</li>
+					<li>
+					<li class="search_text">
+						| 热门: <a href="{$myfcms.searchurl}?keyword=国内">国内</a> <a href="{$myfcms.searchurl}?keyword=国际">国际</a> 
+					</li>
+					</li>
+				</ul>
+			<input type="hidden" name="__hash__" value="df064193b85f13c1b2e89af7eb32aa31_97bf89a34bb957a4b2f24212cb5a62d9" /></form>
+		</div>
+	</div>
+	<div class="nav">
+		<div class="nav-menu">
+			<div class="nav-one">
+				<ul>
+					<li <empty name="topchannelid">class="on"</empty> > 
+						<a href="__MYFCMS__/">首页</a>
+					</li>
+					<myfcms:channel id="toptype" topid="0" >
+						<li <eq name="toptype.id" value="$topchannelid">class="on"</eq> >
+						  <a href="{$toptype.typeurl}">{$toptype.typename}</a>
+						</li>
+					</myfcms:channel>
+				</ul>
+				<div class="clear"></div>
+			</div>
+			<div class="nav-two">
+				<ul>
+					<myfcms:channel id="toptype" topid="$topchannelid" >
+						<li <eq name="toptype.id" value="$myfcms.id">class="on"</eq> >
+						  <a href="{$toptype.typeurl}">{$toptype.typename}</a>
+						</li>
+					</myfcms:channel>
+					<empty name="topchannelid"><li>欢迎使用MyfCMS系统，中国首家完全免费开源的phpcms系统!</li></empty>
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+</div>

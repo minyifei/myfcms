@@ -1,0 +1,35 @@
+<tagLib name="myfcms" />
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>{$myfcms.typename}-<myfcms:global name="cfg_webname" /></title>
+		<meta name="description" content="<myfcms:global name="cfg_description" />" />
+		<meta name="keywords" content="<myfcms:global name="cfg_keywords" />" />
+		<meta name="author" content="minyifei" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<link type="text/css" rel="stylesheet" href="__MYFCMSPUBLIC__/css/t-main.css" />
+	</head>
+	<body>
+		<div class="main">
+			<include file="./Tpl/touch/Public/top.html" />
+			<div class="position">
+				<strong>当前位置：</strong>:{$myfcms.position}
+			</div>
+			<div class="content">
+				<div class="title">
+					<h1>
+						{$myfcms.typename}
+					</h1>
+				</div>
+				<div class="arcbody">
+					{$myfcms.body}
+				</div>
+			</div>
+			<include file="./Tpl/touch/Public/footer.html" />
+		</div>
+	</body>
+</html>

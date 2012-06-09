@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>文章管理</title>
+<link type="text/css" rel="stylesheet" href="__APP__/Public/css/list.css" />
+<link type="text/css" rel="stylesheet" href="__APP__/Public/css/basic.css" />
+<script type="text/javascript" src="__APP__/Public/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="__APP__/Public/js/jquery.simplemodal.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#btnNew").click(function(){
+			window.location.href = "__APP__/index.php?m=Archives&a=add";
+		})
+		$("#btnAll").click(function(){
+			$(".chkid").attr("checked","checked");
+		})
+		$("#btnCanel").click(function(){
+			$(".chkid").attr("checked",false);
+		})
+		//推荐
+		$("#btnRecommend").click(function(){
+			var action = "__APP__/index.php?m=Archives&a=update_pro";
+			var num = 0;
+			$(".chkid").each(function(i){
+				if($(this).attr("checked")=="checked"){
+					num++;
+				}
+			})
+			if(num>0){
+				$("#formArc").attr("action",action);
+				$("#formArc").submit();	
+			}else{
+				alert("请选择要推荐的文章");
+			}
+		})
+		//删除
+		$("#btnDelete").click(function(){
+			var action = "__APP__/index.php?m=Archives&a=delete";
+			var num = 0;
+			$(".chkid").each(function(i){
+				if($(this).attr("checked")=="checked"){
+					num++;
+				}
+			})
+			if(num>0){
+				if(confirm("删除后数据无法恢复！确认删除吗？")){
+					$("#formArc").attr("action",action);
+					$("#formArc").submit();
+				}					
+			}else{
+				alert("请选择要删除的文章");
+			}
+		})
+	})
+	var model = null;
+	function openDialog(id){
+		$("#UpdateIframe").attr("src","__APP__/index.php?m=Archives&a=update_pro&id="+id);
+		model = $('#basic-modal-content').modal();
+	}
+	
+	function closeModel(){
+		window.location.href = window.location.href ;
+	}
+</script>
+</head>
+<body>
+	<div class="list-main">
+		<div class="list-top">
+			<div class="position">
+				您现在的位置：文章管理
+			</div>
+		</div>
+		<div class="list-btns">
+			<input type="button" id="btnNew" class="btn" value="新建" />
+			<input type="button" id="btnAll" class="btn" value="全选" />
+			<input type="button" id="btnCanel" class="btn" value="取消" />
+			<input type="button" id="btnDelete" class="btn" value="删除" />
+		</div>
+		<div class="list-table">
+			<form action="__APP__/index.php?m=Archives&a=update_pro" method="post" id="formArc">
+			<table class="tbl" width="98%" border="0" cellpadding="2" cellspacing="1" bgcolor="#CFCFCF" align="center">
+				<tbody>
+					<tr class="top" height="25">
+						<th width="6%">ID</th>
+						<th width="4%">选择</th>
+						<th width="33%">文章标题</th>
+						<th width="10%">更新时间</th>
+						<th width="13%">栏目</th>
+						<th width="6%">静态</th>
+						<th  width="6%">点击</th>
+						<th width="8%">发布人</th>
+						<th width="10%">操作</th>
+					</tr>
+					<volist name="list" id="vo">
+					<tr align="center" bgcolor="#FFFFFF" height="26" onmousemove="javascript:this.bgColor='#fafafa';" onmouseout="javascript:this.bgColor='#FFFFFF';">
+						<td>{$vo.id}</td>
+						<td><input type="checkbox" id="chkId{$vo.id}" class="chkid" name="arcid[]" value="{$vo.id}"/></td>
+						<td align="left">{$vo.title}
+							<notempty name="vo.flagnames">[<span style="color:red">{$vo.flagnames}</span>]</notempty>
+							</td>
+						<td><div style="width:66px;height:11px;overflow:hidden" title="{$vo.sendtime}">{$vo.sendtime}</div></td>
+						<td>{$vo.typename}</td>
+						<td>
+							<eq name="vo.ishtml" value="1"><span style="color:green">已生成</span><else/><span style="color:red">未生成</span></eq>
+						</td>
+						<td>{$vo.click}</td>
+						<td>{$vo.writer}</td>
+						<td>
+							<img src="__APP__/Public/images/trun.gif" title="编辑属性" alt="编辑属性" onclick="openDialog({$vo.id});" style="cursor:pointer" border="0" width="16" height="16">
+							<a href="__APP__/index.php?m=Archives&a=update&id={$vo.id}">
+								<img src="__APP__/Public/images/gtk-edit.png" title="编辑" alt="编辑" style="cursor:pointer" border="0" width="16" height="16"></a>
+							<a href="{$weburl}/index.php?m=Archives&a={$vo.Arctype.methodname}&id={$vo.id}" target="_blank"><img src="__APP__/Public/images/part-list.gif" title="预览" alt="预览" border="0" width="16" height="16"></a>
+						</td>
+					</tr>
+					</volist>
+					<tr bgcolor="#F9FCEF" height="25">
+						<td colspan="9" align="center">
+							<div class="pager">
+								{$page}
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</form>
+		</div>
+		<div class="search">
+			<form action="__APP__/index.php" method="get" id="formSearch">
+				<table cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td>
+							<input type="hidden" name="m" value="Archives" />
+							<input type="hidden" name="a" value="main" />
+							 <select name="typeid" id="typeid" style="width: 150px;">
+								<option value="0">请选择栏目...</option>
+								<volist name="arttypes" id="vo">
+									<option value="{$vo.id}">{$vo.typename}</option>
+									<volist name="vo.childs" id="child">
+										<option value="{$child.id}">—{$child.typename}</option>
+									</volist>
+								</volist>
+							</select>
+						</td>
+						<td>
+							关键字：
+						</td>
+						<td>
+							<input type="text" name="keyword" id="txtKeyword" value="" style="width:120px">
+						</td>
+						<td>
+							<input type="submit" id="btnSearch" value="搜索" class="btn" />
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+	<div id="basic-modal-content" style="display: none">
+		<iframe id="UpdateIframe" border="0" width="600" height="310" src="" style="border:0" scrolling="no"></iframe>
+	</div>
+</body>
+</html>

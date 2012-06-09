@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>模板管理</title>
+<link type="text/css" rel="stylesheet" href="__APP__/Public/css/list.css" />
+<script type="text/javascript" src="__APP__/Public/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#btnNew").click(function(){
+			window.location.href = "__APP__/index.php?m=Moban&a=add&theme={$theme}";
+		})
+	})
+</script>
+</head>
+<body>
+	<div class="list-main">
+		<div class="list-top">
+			<div class="position">
+				您现在的位置：{$name}
+			</div>
+		</div>
+		<div class="list-btns">
+			<input type="button" id="btnNew" class="btn" value="新建" />
+		</div>
+		<div class="list-table">
+			<form action="__APP__/index.php?m=Archives&a=update_pro" method="post" id="formArc">
+			<table class="tbl" width="98%" border="0" cellpadding="2" cellspacing="1" bgcolor="#CFCFCF" align="center">
+				<tbody>
+					<tr class="top" height="25">
+						<th width="25%">文件名</th>
+						<th width="25%">文件描述</th>
+						<th width="25%">修改时间</th>
+						<th width="25%">操作</th>
+					</tr>
+					<volist id="vo" name="list">
+					<tr align="center" bgcolor="#FFFFFF" height="26" onmousemove="javascript:this.bgColor='#fafafa';" onmouseout="javascript:this.bgColor='#FFFFFF';">
+						<td align="left">
+							./Tpl/{$vo.theme}/{$vo.pathname}/{$vo.filename}.html
+						</td>
+						<td>
+							{$vo.info}
+						</td>
+						<td>
+							{$vo.updatetime}
+						</td>
+						<td>
+							<a href="__APP__/index.php?m=Moban&a=update&id={$vo.id}">修改</a>
+							<eq name="vo.themetype" value="0">
+								<a href="__APP__/index.php?m=Moban&a=delete&id={$vo.id}&code={$code}"   onclick="return(confirm('确定删除?删除后模板无法恢复'))">删除</a>
+							</eq>
+						</td>
+					</tr>
+					</volist>
+				</tbody>
+			</table>
+			</form>
+		</div>
+		<div class="search">
+		</div>
+	</div>
+</body>
+</html>

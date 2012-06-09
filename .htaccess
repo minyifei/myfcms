@@ -1,0 +1,12 @@
+# BEGIN WinBlog
+<IfModule mod_rewrite.c>
+RewriteEngine On
+Options All -Indexes 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(Search)/$ index.php?m=Search&a=index [QSA,PT,L] 
+RewriteRule ^(Cover|List|Single)/(.+)-(.+).html$ index.php?m=$1&a=$3&typedir=$2 [QSA,PT,L] 
+RewriteRule ^(.+)/(.+)-(.+).html$ index.php?m=Archives&a=$2&id=$3
+#RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
+</IfModule>
+# END WinBlog

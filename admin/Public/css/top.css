@@ -1,0 +1,96 @@
+body{
+	margin:0;
+	padding:0;
+	font-size:12px;
+}
+ul,li{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+.top-box{
+	height:80px;
+	position:relative;
+}
+.logo{
+	position:absolute;
+	top:10px;
+	left:50px;
+}
+.login-info{
+	position:absolute;
+	right:10px;
+	top:10px;
+}
+.nav-box{
+	position:absolute;
+	top:37px;
+	left:200px;
+	z-index:10;
+}
+.nav-box ul li{
+	float:left;
+	margin-left:2px;
+	margin-right:2px;
+}
+.nav-box ul li a{
+	display:block;
+	color:#000;
+	text-decoration:none;
+	width:68px;
+	height:28px;
+	text-align:center;
+	line-height:28px;
+/*	background-image: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#e6e1e5));
+  background-image: -webkit-linear-gradient(top, #f9f9f9, #e6e1e5);
+  background-image: -moz-linear-gradient(top, #f9f9f9, #e6e1e5);
+  background-image: -ms-linear-gradient(top, #f9f9f9, #e6e1e5);
+  background-image: -o-linear-gradient(top, #f9f9f9, #e6e1e5);
+  background-image: linear-gradient(top, #f9f9f9, #e6e1e5);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;*/
+  background:url(../images/menubg.png) no-repeat;
+}
+.nav-box ul li a:hover{
+	text-decoration:underline;
+}
+.nav-box ul li.on a{
+	background:url(../images/menubg.png) no-repeat 0 -28px;
+	color:white;
+}
+.menu-box{
+	position:absolute;
+	top:61px;
+	left:0;
+	width:100%;
+	height:32px;
+	z-index:1;
+	background:url(../images/topbg.gif) repeat-x;
+}
+.menu-box .nowtime{
+	float:left;
+	width:160px;
+	line-height:35px;
+	color:white;
+	padding-left:20px;
+}
+.fast {
+	float:left;
+	width:500px;
+}
+.fast ul li{
+	float:left;
+	padding-right:5px;
+	padding-left:5px;
+	line-height:35px;
+}
+.fast ul li a{
+	color:white;
+	text-decoration:none;
+}
+.fast ul li a:hover{
+	text-decoration:underline;
+}

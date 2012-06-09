@@ -1,0 +1,140 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>添加管理员</title>
+		<link type="text/css" rel="stylesheet" href="__APP__/Public/css/add.css" />
+		<script type="text/javascript" src="__APP__/Public/js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#btnSubmit").click(function(){
+					var userid = $.trim($("#txtUserId").val());
+					if(userid == ""){
+						alert("用户登录名不能为空！");
+						return false;
+					}
+					var uname = $.trim($("#txtUname").val());
+					if(uname == ""){
+						alert("用户笔名不能为空！");
+						return false;
+					}
+					var pwd = $.trim($("#txtPwd").val());
+					if(pwd == ""){
+						alert("用户密码不能为空！");
+						return false;
+					}
+					var email = $.trim($("#txtEmail").val());
+					if(email == ""){
+						alert("用户邮件不能为空！");
+						return false;
+					}
+					var code = $.trim($("#txtCode").val());
+					if(code == ""){
+						alert("验证串不能为空！");
+						return false;
+					}
+					
+				})
+			})
+			
+		</script>
+	</head>
+	<body>
+		<div class="main">
+			<div class="top">
+				<div class="position">
+					您现在的位置：<a href="__APP__/index.php?m=User&a=main">管理员管理</a><span class="split">&gt;</span>添加管理员
+				</div>
+			</div>
+			<div class="center">
+				<form action="__APP__/index.php?m=User&a=add_handler" method="post">
+				<table width="100%">
+					<tbody>
+						<tr height="24" >
+							<td class="bline">
+								<table width="800" border="0" cellspacing="0" cellpadding="0">
+						          <tbody>
+						          	<tr>
+						            <td width="140">&nbsp;用户登录ID：</td>
+						            <td width="240">
+						            	<input name="userid" type="text" id="txtUserId" value="" style="width:228px">
+						            </td>
+						            <td width="400">（只能用'0-9'、'a-z'、'A-Z'、'.'、'@'、'_'、'-'、'!'以内范围的字符）</td>
+						          </tr>
+						        </tbody>
+						        </table>
+							</td>
+						</tr>
+						<tr height="24" >
+							<td class="bline">
+								<table width="800" border="0" cellspacing="0" cellpadding="0">
+						          <tbody>
+						          	<tr>
+						            <td width="140">&nbsp;用户笔名：</td>
+						            <td width="240">
+						            	<input name="uname" type="text" id="txtUname" value="" style="width:228px">
+						            </td>
+						            <td width="400">（发布文章后显示责任编辑的名字）</td>
+						          </tr>
+						        </tbody>
+						        </table>
+							</td>
+						</tr>
+						<tr>
+							<td class="bline">
+								<table width="800" border="0" cellspacing="0" cellpadding="0">
+						          <tbody><tr>
+						            <td width="140">&nbsp;用户密码：</td>
+						            <td width="240">
+						            	<input name="pwd" type="text" id="txtPwd" style="width:228px" value="">
+						            </td>
+						            <td width="400">（只能用'0-9'、'a-z'、'A-Z'、'.'、'@'、'_'、'-'、'!'以内范围的字符）</td>
+						          </tr>
+						       </tbody>
+						       </table>
+							</td>
+						</tr>
+						<tr>
+							<td class="bline">
+								<table width="800" border="0" cellspacing="0" cellpadding="0">
+						          <tbody><tr>
+						            <td width="140">&nbsp;电子邮箱：</td>
+						            <td width="240">
+						            	<input name="email" type="text" id="txtEmail" style="width:228px" value="">
+						            </td>
+						            <td width="400"></td>
+						          </tr>
+						       </tbody>
+						       </table>
+							</td>
+						</tr>
+						<tr>
+							<td class="bline">
+								<table width="800" border="0" cellspacing="0" cellpadding="0">
+						          <tbody><tr>
+						            <td width="140">&nbsp;安全验证串：</td>
+						            <td width="240">
+						            	<input name="code" type="text" id="txtCode" style="width:228px" value="">
+						            </td>
+						            <td width="400" class="red">
+						            	<?php echo ($code); ?>
+						            </td>
+						          </tr>
+						       </tbody>
+						       </table>
+							</td>
+						</tr>
+						<tr>
+							<td height="28" colspan="2" bgcolor="#F9FCEF" class="bline3" >
+								<input type="submit" id="btnSubmit" class="btn" value="保存" />
+								<input type="reset" id="btnReset" class="btn" value="重置" />
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				</form>
+			</div>
+		</div>
+		
+	</body>
+</html>

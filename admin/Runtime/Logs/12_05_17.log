@@ -1,0 +1,62 @@
+[ 2012-05-17T08:22:04+08:00 ] /myfcms/admin/index.php?m=Sys&a=main | INFO: Tag[ app_begin ] --START--
+[ 2012-05-17T08:22:04+08:00 ] /myfcms/admin/index.php?m=Sys&a=main | INFO: Run ReadHtmlCache Behavior [ RunTime:0.008513s ]
+[ 2012-05-17T08:22:04+08:00 ] /myfcms/admin/index.php?m=Sys&a=main | INFO: Tag[ app_begin ] --END-- [ RunTime:0.009703s ]
+[ 2012-05-17T08:22:05+08:00 ] /myfcms/admin/index.php?m=Sys&a=main | SQL: SHOW COLUMNS FROM `myf_sys` [ RunTime:0.154840s ]
+[ 2012-05-17T08:22:05+08:00 ] /myfcms/admin/index.php?m=Sys&a=main | SQL: SELECT * FROM `myf_sys`  [ RunTime:0.005642s ]
+[ 2012-05-17T08:22:05+08:00 ] /myfcms/admin/index.php?m=Sys&a=main | INFO: Tag[ view_template ] --START--
+[ 2012-05-17T08:22:05+08:00 ] /myfcms/admin/index.php?m=Sys&a=main | INFO: Run LocationTemplate Behavior [ RunTime:0.007590s ]
+[ 2012-05-17T08:22:05+08:00 ] /myfcms/admin/index.php?m=Sys&a=main | INFO: Tag[ view_template ] --END-- [ RunTime:0.007849s ]
+[ 2012-05-17T08:22:05+08:00 ] /myfcms/admin/index.php?m=Sys&a=main | INFO: Tag[ view_parse ] --START--
+[ 2012-05-17T08:22:05+08:00 ] /myfcms/admin/index.php?m=Sys&a=main | INFO: Run ParseTemplate Behavior [ RunTime:0.163119s ]
+[ 2012-05-17T08:22:05+08:00 ] /myfcms/admin/index.php?m=Sys&a=main | INFO: Tag[ view_parse ] --END-- [ RunTime:0.163415s ]
+[ 2012-05-17T08:22:05+08:00 ] /myfcms/admin/index.php?m=Sys&a=main | INFO: Tag[ view_filter ] --START--
+[ 2012-05-17T08:22:05+08:00 ] /myfcms/admin/index.php?m=Sys&a=main | INFO: Run ContentReplace Behavior [ RunTime:0.003987s ]
+[ 2012-05-17T08:22:05+08:00 ] /myfcms/admin/index.php?m=Sys&a=main | INFO: Run TokenBuild Behavior [ RunTime:0.003981s ]
+[ 2012-05-17T08:22:05+08:00 ] /myfcms/admin/index.php?m=Sys&a=main | INFO: Run WriteHtmlCache Behavior [ RunTime:0.003174s ]
+[ 2012-05-17T08:22:05+08:00 ] /myfcms/admin/index.php?m=Sys&a=main | INFO: Run ShowRuntime Behavior [ RunTime:0.005153s ]
+[ 2012-05-17T08:22:05+08:00 ] /myfcms/admin/index.php?m=Sys&a=main | INFO: Tag[ view_filter ] --END-- [ RunTime:0.016972s ]
+[ 2012-05-17T08:22:05+08:00 ] /myfcms/admin/index.php?m=Sys&a=main | INFO: Tag[ view_end ] --START--
+[ 2012-05-17T08:22:05+08:00 ] /myfcms/admin/index.php?m=Sys&a=main | INFO: Run ShowPageTrace Behavior [ RunTime:0.003796s ]
+[ 2012-05-17T08:22:05+08:00 ] /myfcms/admin/index.php?m=Sys&a=main | INFO: Tag[ view_end ] --END-- [ RunTime:0.004027s ]
+[ 2012-05-17T08:22:09+08:00 ] /myfcms/admin/index.php?m=Arctype&a=main | INFO: Tag[ app_begin ] --START--
+[ 2012-05-17T08:22:09+08:00 ] /myfcms/admin/index.php?m=Arctype&a=main | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002103s ]
+[ 2012-05-17T08:22:09+08:00 ] /myfcms/admin/index.php?m=Arctype&a=main | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002460s ]
+[ 2012-05-17T08:22:10+08:00 ] /myfcms/admin/index.php?m=Arctype&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.112199s ]
+[ 2012-05-17T08:22:10+08:00 ] /myfcms/admin/index.php?m=Arctype&a=main | SQL: SELECT `id`,`topid`,`sortrank`,`typename`,`typedir`,`arcnamerule`,`listnamerule`,`classname`,`methodname`,`keywords`,`seotitle`,`description`,`typepro` FROM `myf_arctype` ORDER BY sortrank asc  [ RunTime:0.004175s ]
+[ 2012-05-17T08:22:10+08:00 ] /myfcms/admin/index.php?m=Arctype&a=main | SQL: SHOW COLUMNS FROM `myf_sys` [ RunTime:0.009338s ]
+[ 2012-05-17T08:22:10+08:00 ] /myfcms/admin/index.php?m=Arctype&a=main | SQL: SELECT * FROM `myf_sys` WHERE id<3  [ RunTime:0.032699s ]
+[ 2012-05-17T08:22:10+08:00 ] /myfcms/admin/index.php?m=Arctype&a=main | INFO: Tag[ view_template ] --START--
+[ 2012-05-17T08:22:10+08:00 ] /myfcms/admin/index.php?m=Arctype&a=main | INFO: Run LocationTemplate Behavior [ RunTime:0.019720s ]
+[ 2012-05-17T08:22:10+08:00 ] /myfcms/admin/index.php?m=Arctype&a=main | INFO: Tag[ view_template ] --END-- [ RunTime:0.020001s ]
+[ 2012-05-17T08:22:10+08:00 ] /myfcms/admin/index.php?m=Arctype&a=main | INFO: Tag[ view_parse ] --START--
+[ 2012-05-17T08:22:10+08:00 ] /myfcms/admin/index.php?m=Arctype&a=main | INFO: Run ParseTemplate Behavior [ RunTime:0.184030s ]
+[ 2012-05-17T08:22:10+08:00 ] /myfcms/admin/index.php?m=Arctype&a=main | INFO: Tag[ view_parse ] --END-- [ RunTime:0.184320s ]
+[ 2012-05-17T08:22:10+08:00 ] /myfcms/admin/index.php?m=Arctype&a=main | INFO: Tag[ view_filter ] --START--
+[ 2012-05-17T08:22:10+08:00 ] /myfcms/admin/index.php?m=Arctype&a=main | INFO: Run ContentReplace Behavior [ RunTime:0.001373s ]
+[ 2012-05-17T08:22:10+08:00 ] /myfcms/admin/index.php?m=Arctype&a=main | INFO: Run TokenBuild Behavior [ RunTime:0.001669s ]
+[ 2012-05-17T08:22:10+08:00 ] /myfcms/admin/index.php?m=Arctype&a=main | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000868s ]
+[ 2012-05-17T08:22:10+08:00 ] /myfcms/admin/index.php?m=Arctype&a=main | INFO: Run ShowRuntime Behavior [ RunTime:0.004072s ]
+[ 2012-05-17T08:22:10+08:00 ] /myfcms/admin/index.php?m=Arctype&a=main | INFO: Tag[ view_filter ] --END-- [ RunTime:0.008644s ]
+[ 2012-05-17T08:22:10+08:00 ] /myfcms/admin/index.php?m=Arctype&a=main | INFO: Tag[ view_end ] --START--
+[ 2012-05-17T08:22:10+08:00 ] /myfcms/admin/index.php?m=Arctype&a=main | INFO: Run ShowPageTrace Behavior [ RunTime:0.002572s ]
+[ 2012-05-17T08:22:10+08:00 ] /myfcms/admin/index.php?m=Arctype&a=main | INFO: Tag[ view_end ] --END-- [ RunTime:0.002836s ]
+[ 2012-05-17T08:22:12+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Tag[ app_begin ] --START--
+[ 2012-05-17T08:22:12+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001905s ]
+[ 2012-05-17T08:22:12+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002245s ]
+[ 2012-05-17T08:22:13+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | SQL: SHOW COLUMNS FROM `myf_moban` [ RunTime:0.061068s ]
+[ 2012-05-17T08:22:13+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | SQL: SELECT * FROM `myf_moban` WHERE theme='default'  [ RunTime:0.021780s ]
+[ 2012-05-17T08:22:13+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Tag[ view_template ] --START--
+[ 2012-05-17T08:22:13+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Run LocationTemplate Behavior [ RunTime:0.005726s ]
+[ 2012-05-17T08:22:13+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Tag[ view_template ] --END-- [ RunTime:0.006019s ]
+[ 2012-05-17T08:22:13+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Tag[ view_parse ] --START--
+[ 2012-05-17T08:22:13+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Run ParseTemplate Behavior [ RunTime:0.077008s ]
+[ 2012-05-17T08:22:13+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Tag[ view_parse ] --END-- [ RunTime:0.077306s ]
+[ 2012-05-17T08:22:13+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Tag[ view_filter ] --START--
+[ 2012-05-17T08:22:13+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Run ContentReplace Behavior [ RunTime:0.001418s ]
+[ 2012-05-17T08:22:13+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Run TokenBuild Behavior [ RunTime:0.001636s ]
+[ 2012-05-17T08:22:13+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000889s ]
+[ 2012-05-17T08:22:13+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Run ShowRuntime Behavior [ RunTime:0.001679s ]
+[ 2012-05-17T08:22:13+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006242s ]
+[ 2012-05-17T08:22:13+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Tag[ view_end ] --START--
+[ 2012-05-17T08:22:13+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Run ShowPageTrace Behavior [ RunTime:0.001792s ]
+[ 2012-05-17T08:22:13+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Tag[ view_end ] --END-- [ RunTime:0.002036s ]

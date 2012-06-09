@@ -1,0 +1,559 @@
+[ 2012-05-23T07:22:10+08:00 ] /myfcms/ | INFO: Tag[ app_begin ] --START--
+[ 2012-05-23T07:22:10+08:00 ] /myfcms/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.019546s ]
+[ 2012-05-23T07:22:10+08:00 ] /myfcms/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.040122s ]
+[ 2012-05-23T07:22:10+08:00 ] /myfcms/ | INFO: Tag[ view_template ] --START--
+[ 2012-05-23T07:22:10+08:00 ] /myfcms/ | INFO: Run LocationTemplate Behavior [ RunTime:0.026112s ]
+[ 2012-05-23T07:22:10+08:00 ] /myfcms/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.026421s ]
+[ 2012-05-23T07:22:10+08:00 ] /myfcms/ | INFO: Tag[ view_parse ] --START--
+[ 2012-05-23T07:22:10+08:00 ] /myfcms/ | NOTIC: [8] Undefined index:  limit TagLibMyfcms.class.php 第 49 行.
+[ 2012-05-23T07:22:10+08:00 ] /myfcms/ | NOTIC: [8] Undefined index:  type TagLibMyfcms.class.php 第 69 行.
+[ 2012-05-23T07:22:10+08:00 ] /myfcms/ | NOTIC: [8] Undefined index:  limit TagLibMyfcms.class.php 第 81 行.
+[ 2012-05-23T07:22:10+08:00 ] /myfcms/ | NOTIC: [8] Undefined index:  type TagLibMyfcms.class.php 第 69 行.
+[ 2012-05-23T07:22:10+08:00 ] /myfcms/ | NOTIC: [8] Undefined index:  limit TagLibMyfcms.class.php 第 81 行.
+[ 2012-05-23T07:22:10+08:00 ] /myfcms/ | NOTIC: [8] Undefined index:  typeid TagLibMyfcms.class.php 第 166 行.
+[ 2012-05-23T07:22:10+08:00 ] /myfcms/ | NOTIC: [8] Undefined index:  flag TagLibMyfcms.class.php 第 176 行.
+[ 2012-05-23T07:22:10+08:00 ] /myfcms/ | NOTIC: [8] Undefined index:  noflag TagLibMyfcms.class.php 第 183 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_sys` [ RunTime:0.113180s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_sys` WHERE name='cfg_webname'  [ RunTime:0.026726s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant value - assumed 'value' 0573c70d8602d961e53f714ea77bd87c.php 第 16 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.057561s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SELECT `id`,`topid`,`sortrank`,`typename`,`typedir`,`arcnamerule`,`listnamerule`,`classname`,`methodname`,`keywords`,`seotitle`,`description`,`typepro` FROM `myf_arctype` WHERE 1=1  and topid=0 ORDER BY sortrank asc  [ RunTime:0.099505s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SELECT `id`,`topid`,`sortrank`,`typename`,`typedir`,`arcnamerule`,`listnamerule`,`classname`,`methodname`,`keywords`,`seotitle`,`description`,`typepro` FROM `myf_arctype` WHERE 1=1  and topid=0 ORDER BY sortrank asc  [ RunTime:0.001594s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_archives` [ RunTime:0.068122s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SELECT `id`,`typeid`,`typename`,`flag`,`click`,`title`,`color`,`writer`,`source`,`litpic`,`keywords`,`description`,`sendtime`,`goodpost`,`badpost`,`adminid`,`adminname` FROM `myf_archives` WHERE 1=1 ORDER BY rand() LIMIT 10   [ RunTime:0.068593s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009032s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.003774s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.008679s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='3' LIMIT 1   [ RunTime:0.003296s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009007s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='3' LIMIT 1   [ RunTime:0.003212s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.008934s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.002740s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.013605s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.001208s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.013026s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='3' LIMIT 1   [ RunTime:0.001283s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.008852s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='3' LIMIT 1   [ RunTime:0.002392s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.010165s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.002405s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009580s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.004088s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009127s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.002966s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_sys` WHERE name='cfg_webname'  [ RunTime:0.000833s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant value - assumed 'value' 0573c70d8602d961e53f714ea77bd87c.php 第 49 行.
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_flink` [ RunTime:0.044647s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_flink`  [ RunTime:0.002902s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | INFO: Run ParseTemplate Behavior [ RunTime:2.043515s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | INFO: Tag[ view_parse ] --END-- [ RunTime:2.043760s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | INFO: Tag[ view_filter ] --START--
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | INFO: Run ContentReplace Behavior [ RunTime:0.036376s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | INFO: Run TokenBuild Behavior [ RunTime:0.016530s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.003843s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | INFO: Run ShowRuntime Behavior [ RunTime:0.004679s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.062176s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | INFO: Tag[ view_end ] --START--
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.028967s ]
+[ 2012-05-23T07:22:12+08:00 ] /myfcms/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.029243s ]
+[ 2012-05-23T07:22:16+08:00 ] /myfcms/List/hulianwang-index.html | INFO: Tag[ route_check ] --START--
+[ 2012-05-23T07:22:16+08:00 ] /myfcms/List/hulianwang-index.html | INFO: Run CheckRoute Behavior [ RunTime:0.006258s ]
+[ 2012-05-23T07:22:16+08:00 ] /myfcms/List/hulianwang-index.html | INFO: Tag[ route_check ] --END-- [ RunTime:0.006641s ]
+[ 2012-05-23T07:22:16+08:00 ] /myfcms/List/hulianwang-index.html | INFO: Tag[ app_begin ] --START--
+[ 2012-05-23T07:22:16+08:00 ] /myfcms/List/hulianwang-index.html | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002028s ]
+[ 2012-05-23T07:22:16+08:00 ] /myfcms/List/hulianwang-index.html | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002269s ]
+[ 2012-05-23T07:22:16+08:00 ] /myfcms/List/hulianwang-index.html | NOTIC: [8] Undefined index:  id BaseAction.class.php 第 21 行.
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.011003s ]
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | SQL: SELECT * FROM `myf_arctype` WHERE typedir='hulianwang'  [ RunTime:0.003085s ]
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | SQL: SELECT * FROM `myf_arctype` WHERE ( `id` = '6' ) LIMIT 1   [ RunTime:0.000849s ]
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | NOTIC: [8] Undefined index:  p BaseAction.class.php 第 79 行.
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | INFO: Tag[ view_template ] --START--
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | INFO: Run LocationTemplate Behavior [ RunTime:0.004841s ]
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | INFO: Tag[ view_template ] --END-- [ RunTime:0.005119s ]
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | INFO: Tag[ view_parse ] --START--
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | NOTIC: [8] Undefined index:  type TagLibMyfcms.class.php 第 69 行.
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | NOTIC: [8] Undefined index:  limit TagLibMyfcms.class.php 第 81 行.
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | NOTIC: [8] Undefined index:  type TagLibMyfcms.class.php 第 69 行.
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | NOTIC: [8] Undefined index:  limit TagLibMyfcms.class.php 第 81 行.
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | NOTIC: [8] Undefined index:  pagesize TagLibMyfcms.class.php 第 142 行.
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | SQL: SELECT `id`,`topid`,`sortrank`,`typename`,`typedir`,`arcnamerule`,`listnamerule`,`classname`,`methodname`,`keywords`,`seotitle`,`description`,`typepro` FROM `myf_arctype` WHERE 1=1  and topid=0 ORDER BY sortrank asc  [ RunTime:0.001438s ]
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 58eb7f6a6506a76b2a85b1d908309341.php 第 22 行.
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 58eb7f6a6506a76b2a85b1d908309341.php 第 22 行.
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 58eb7f6a6506a76b2a85b1d908309341.php 第 22 行.
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 58eb7f6a6506a76b2a85b1d908309341.php 第 22 行.
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 58eb7f6a6506a76b2a85b1d908309341.php 第 22 行.
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 58eb7f6a6506a76b2a85b1d908309341.php 第 22 行.
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 58eb7f6a6506a76b2a85b1d908309341.php 第 22 行.
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 58eb7f6a6506a76b2a85b1d908309341.php 第 22 行.
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 58eb7f6a6506a76b2a85b1d908309341.php 第 22 行.
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 58eb7f6a6506a76b2a85b1d908309341.php 第 22 行.
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | SQL: SELECT `id`,`topid`,`sortrank`,`typename`,`typedir`,`arcnamerule`,`listnamerule`,`classname`,`methodname`,`keywords`,`seotitle`,`description`,`typepro` FROM `myf_arctype` WHERE 1=1  and topid=6 ORDER BY sortrank asc  [ RunTime:0.000830s ]
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | SQL: SHOW COLUMNS FROM `myf_archives` [ RunTime:0.009928s ]
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | SQL: SELECT COUNT(*) AS tp_count FROM `myf_archives` WHERE typeid=6 LIMIT 1   [ RunTime:0.010975s ]
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | SQL: SELECT `id`,`typeid`,`typename`,`flag`,`click`,`title`,`color`,`writer`,`source`,`litpic`,`keywords`,`description`,`sendtime`,`goodpost`,`badpost`,`adminid`,`adminname` FROM `myf_archives` WHERE typeid=6 ORDER BY id desc LIMIT 0,5   [ RunTime:0.001369s ]
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | SQL: SELECT COUNT(*) AS tp_count FROM `myf_archives` WHERE typeid=6 LIMIT 1   [ RunTime:0.001931s ]
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | INFO: Run ParseTemplate Behavior [ RunTime:0.105582s ]
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | INFO: Tag[ view_parse ] --END-- [ RunTime:0.105832s ]
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | INFO: Tag[ view_filter ] --START--
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | INFO: Run ContentReplace Behavior [ RunTime:0.001539s ]
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | INFO: Run TokenBuild Behavior [ RunTime:0.001470s ]
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000814s ]
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | INFO: Run ShowRuntime Behavior [ RunTime:0.001579s ]
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006010s ]
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | INFO: Tag[ view_end ] --START--
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | INFO: Run ShowPageTrace Behavior [ RunTime:0.001498s ]
+[ 2012-05-23T07:22:17+08:00 ] /myfcms/List/hulianwang-index.html | INFO: Tag[ view_end ] --END-- [ RunTime:0.001717s ]
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | INFO: Tag[ route_check ] --START--
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | INFO: Run CheckRoute Behavior [ RunTime:0.008866s ]
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | INFO: Tag[ route_check ] --END-- [ RunTime:0.009278s ]
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | INFO: Tag[ app_begin ] --START--
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.004564s ]
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.004857s ]
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | NOTIC: [8] Undefined index:  id BaseAction.class.php 第 21 行.
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.012247s ]
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | SQL: SELECT * FROM `myf_arctype` WHERE typedir='hulianwang'  [ RunTime:0.005083s ]
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | SQL: SELECT * FROM `myf_arctype` WHERE ( `id` = '6' ) LIMIT 1   [ RunTime:0.000905s ]
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | INFO: Tag[ view_template ] --START--
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | INFO: Run LocationTemplate Behavior [ RunTime:0.006501s ]
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | INFO: Tag[ view_template ] --END-- [ RunTime:0.006756s ]
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | INFO: Tag[ view_parse ] --START--
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | NOTIC: [8] Undefined index:  type TagLibMyfcms.class.php 第 69 行.
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | NOTIC: [8] Undefined index:  limit TagLibMyfcms.class.php 第 81 行.
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | NOTIC: [8] Undefined index:  type TagLibMyfcms.class.php 第 69 行.
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | NOTIC: [8] Undefined index:  limit TagLibMyfcms.class.php 第 81 行.
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | NOTIC: [8] Undefined index:  pagesize TagLibMyfcms.class.php 第 142 行.
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | SQL: SELECT `id`,`topid`,`sortrank`,`typename`,`typedir`,`arcnamerule`,`listnamerule`,`classname`,`methodname`,`keywords`,`seotitle`,`description`,`typepro` FROM `myf_arctype` WHERE 1=1  and topid=0 ORDER BY sortrank asc  [ RunTime:0.002220s ]
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 58eb7f6a6506a76b2a85b1d908309341.php 第 22 行.
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 58eb7f6a6506a76b2a85b1d908309341.php 第 22 行.
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 58eb7f6a6506a76b2a85b1d908309341.php 第 22 行.
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 58eb7f6a6506a76b2a85b1d908309341.php 第 22 行.
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 58eb7f6a6506a76b2a85b1d908309341.php 第 22 行.
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 58eb7f6a6506a76b2a85b1d908309341.php 第 22 行.
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 58eb7f6a6506a76b2a85b1d908309341.php 第 22 行.
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 58eb7f6a6506a76b2a85b1d908309341.php 第 22 行.
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 58eb7f6a6506a76b2a85b1d908309341.php 第 22 行.
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 58eb7f6a6506a76b2a85b1d908309341.php 第 22 行.
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | SQL: SELECT `id`,`topid`,`sortrank`,`typename`,`typedir`,`arcnamerule`,`listnamerule`,`classname`,`methodname`,`keywords`,`seotitle`,`description`,`typepro` FROM `myf_arctype` WHERE 1=1  and topid=6 ORDER BY sortrank asc  [ RunTime:0.000951s ]
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | SQL: SHOW COLUMNS FROM `myf_archives` [ RunTime:0.009315s ]
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | SQL: SELECT COUNT(*) AS tp_count FROM `myf_archives` WHERE typeid=6 LIMIT 1   [ RunTime:0.006503s ]
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | SQL: SELECT `id`,`typeid`,`typename`,`flag`,`click`,`title`,`color`,`writer`,`source`,`litpic`,`keywords`,`description`,`sendtime`,`goodpost`,`badpost`,`adminid`,`adminname` FROM `myf_archives` WHERE typeid=6 ORDER BY id desc LIMIT 5,5   [ RunTime:0.001248s ]
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | SQL: SELECT COUNT(*) AS tp_count FROM `myf_archives` WHERE typeid=6 LIMIT 1   [ RunTime:0.001729s ]
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | INFO: Run ParseTemplate Behavior [ RunTime:0.267754s ]
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.267990s ]
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | INFO: Tag[ view_filter ] --START--
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | INFO: Run ContentReplace Behavior [ RunTime:0.004234s ]
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | INFO: Run TokenBuild Behavior [ RunTime:0.004368s ]
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.003109s ]
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | INFO: Run ShowRuntime Behavior [ RunTime:0.003815s ]
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.016182s ]
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | INFO: Tag[ view_end ] --START--
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | INFO: Run ShowPageTrace Behavior [ RunTime:0.004074s ]
+[ 2012-05-23T07:26:14+08:00 ] /myfcms/List/hulianwang-index.html?&p=2 | INFO: Tag[ view_end ] --END-- [ RunTime:0.004380s ]
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | INFO: Tag[ app_begin ] --START--
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.004304s ]
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.004668s ]
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | INFO: Tag[ view_template ] --START--
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | INFO: Run LocationTemplate Behavior [ RunTime:0.008370s ]
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.008661s ]
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | INFO: Tag[ view_parse ] --START--
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Undefined index:  limit TagLibMyfcms.class.php 第 49 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Undefined index:  type TagLibMyfcms.class.php 第 69 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Undefined index:  limit TagLibMyfcms.class.php 第 81 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Undefined index:  type TagLibMyfcms.class.php 第 69 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Undefined index:  limit TagLibMyfcms.class.php 第 81 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Undefined index:  typeid TagLibMyfcms.class.php 第 166 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Undefined index:  flag TagLibMyfcms.class.php 第 176 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Undefined index:  noflag TagLibMyfcms.class.php 第 183 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_sys` [ RunTime:0.011247s ]
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_sys` WHERE name='cfg_webname'  [ RunTime:0.003791s ]
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant value - assumed 'value' 0573c70d8602d961e53f714ea77bd87c.php 第 16 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.031481s ]
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | SQL: SELECT `id`,`topid`,`sortrank`,`typename`,`typedir`,`arcnamerule`,`listnamerule`,`classname`,`methodname`,`keywords`,`seotitle`,`description`,`typepro` FROM `myf_arctype` WHERE 1=1  and topid=0 ORDER BY sortrank asc  [ RunTime:0.003953s ]
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | SQL: SELECT `id`,`topid`,`sortrank`,`typename`,`typedir`,`arcnamerule`,`listnamerule`,`classname`,`methodname`,`keywords`,`seotitle`,`description`,`typepro` FROM `myf_arctype` WHERE 1=1  and topid=0 ORDER BY sortrank asc  [ RunTime:0.001543s ]
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_archives` [ RunTime:0.012531s ]
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | SQL: SELECT `id`,`typeid`,`typename`,`flag`,`click`,`title`,`color`,`writer`,`source`,`litpic`,`keywords`,`description`,`sendtime`,`goodpost`,`badpost`,`adminid`,`adminname` FROM `myf_archives` WHERE 1=1 ORDER BY rand() LIMIT 10   [ RunTime:0.010165s ]
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.010423s ]
+[ 2012-05-23T07:53:59+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.004116s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.010348s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.006058s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.014311s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.005671s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.042816s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.007974s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.012409s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.004676s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.010458s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.012557s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009218s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='3' LIMIT 1   [ RunTime:0.006628s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.011764s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.005557s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.011902s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.005453s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.011954s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.004026s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_sys` WHERE name='cfg_webname'  [ RunTime:0.001044s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant value - assumed 'value' 0573c70d8602d961e53f714ea77bd87c.php 第 49 行.
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_flink` [ RunTime:0.009481s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_flink`  [ RunTime:0.004066s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | INFO: Run ParseTemplate Behavior [ RunTime:0.523642s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.523872s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | INFO: Tag[ view_filter ] --START--
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | INFO: Run ContentReplace Behavior [ RunTime:0.003901s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | INFO: Run TokenBuild Behavior [ RunTime:0.011974s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.004376s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | INFO: Run ShowRuntime Behavior [ RunTime:0.005847s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.028711s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | INFO: Tag[ view_end ] --START--
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.011410s ]
+[ 2012-05-23T07:54:00+08:00 ] /myfcms/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.011686s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | INFO: Tag[ route_check ] --START--
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | INFO: Run CheckRoute Behavior [ RunTime:0.005453s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | INFO: Tag[ route_check ] --END-- [ RunTime:0.005825s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | INFO: Tag[ app_begin ] --START--
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001898s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002135s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | SQL: SHOW COLUMNS FROM `myf_archives` [ RunTime:0.010617s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | SQL: SELECT * FROM `myf_archives` WHERE ( `id` = '235' ) LIMIT 1   [ RunTime:0.005242s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009339s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.003533s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | SQL: SELECT * FROM `myf_archives` WHERE typeid=6 and id<235 LIMIT 1   [ RunTime:0.025799s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009200s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.003023s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | SQL: SELECT * FROM `myf_archives` WHERE typeid=6 and id>235 LIMIT 1   [ RunTime:0.000992s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009008s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.002928s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | SQL: SHOW COLUMNS FROM `myf_sys` [ RunTime:0.008192s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | SQL: SELECT * FROM `myf_sys` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.003664s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | SQL: UPDATE `myf_archives` SET `click`=click+1 WHERE id=235 [ RunTime:0.030119s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | INFO: Tag[ view_template ] --START--
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | INFO: Run LocationTemplate Behavior [ RunTime:0.004186s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | INFO: Tag[ view_template ] --END-- [ RunTime:0.004458s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | INFO: Tag[ view_parse ] --START--
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | NOTIC: [8] Undefined index:  type TagLibMyfcms.class.php 第 69 行.
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | NOTIC: [8] Undefined index:  limit TagLibMyfcms.class.php 第 81 行.
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | SQL: SELECT * FROM `myf_sys` WHERE name='cfg_webname'  [ RunTime:0.000954s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | NOTIC: [8] Use of undefined constant value - assumed 'value' b0aaa8ff64489e1167c404b6d1eaf193.php 第 7 行.
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | SQL: SELECT * FROM `myf_sys` WHERE name='cfg_webname'  [ RunTime:0.000604s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | NOTIC: [8] Use of undefined constant value - assumed 'value' b0aaa8ff64489e1167c404b6d1eaf193.php 第 16 行.
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.010151s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | SQL: SELECT `id`,`topid`,`sortrank`,`typename`,`typedir`,`arcnamerule`,`listnamerule`,`classname`,`methodname`,`keywords`,`seotitle`,`description`,`typepro` FROM `myf_arctype` WHERE 1=1  and topid=0 ORDER BY sortrank asc  [ RunTime:0.003501s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 23 行.
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 23 行.
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 23 行.
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 23 行.
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 23 行.
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 23 行.
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 23 行.
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 23 行.
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 23 行.
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 23 行.
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | SQL: SELECT * FROM `myf_sys` WHERE name='cfg_powerby'  [ RunTime:0.001108s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | NOTIC: [8] Use of undefined constant value - assumed 'value' b0aaa8ff64489e1167c404b6d1eaf193.php 第 52 行.
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | SQL: SELECT * FROM `myf_sys` WHERE name='cfg_beian'  [ RunTime:0.000704s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | NOTIC: [8] Use of undefined constant value - assumed 'value' b0aaa8ff64489e1167c404b6d1eaf193.php 第 52 行.
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | INFO: Run ParseTemplate Behavior [ RunTime:0.102340s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | INFO: Tag[ view_parse ] --END-- [ RunTime:0.102578s ]
+[ 2012-05-23T07:54:02+08:00 ] /myfcms/hulianwang/index-235.html | INFO: Tag[ view_filter ] --START--
+[ 2012-05-23T07:54:03+08:00 ] /myfcms/hulianwang/index-235.html | INFO: Run ContentReplace Behavior [ RunTime:0.001660s ]
+[ 2012-05-23T07:54:03+08:00 ] /myfcms/hulianwang/index-235.html | INFO: Run TokenBuild Behavior [ RunTime:0.001360s ]
+[ 2012-05-23T07:54:03+08:00 ] /myfcms/hulianwang/index-235.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000837s ]
+[ 2012-05-23T07:54:03+08:00 ] /myfcms/hulianwang/index-235.html | INFO: Run ShowRuntime Behavior [ RunTime:0.001536s ]
+[ 2012-05-23T07:54:03+08:00 ] /myfcms/hulianwang/index-235.html | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005995s ]
+[ 2012-05-23T07:54:03+08:00 ] /myfcms/hulianwang/index-235.html | INFO: Tag[ view_end ] --START--
+[ 2012-05-23T07:54:03+08:00 ] /myfcms/hulianwang/index-235.html | INFO: Run ShowPageTrace Behavior [ RunTime:0.001499s ]
+[ 2012-05-23T07:54:03+08:00 ] /myfcms/hulianwang/index-235.html | INFO: Tag[ view_end ] --END-- [ RunTime:0.001714s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | INFO: Tag[ app_begin ] --START--
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.004407s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.004780s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | INFO: Tag[ view_template ] --START--
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | INFO: Run LocationTemplate Behavior [ RunTime:0.006473s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.006753s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | INFO: Tag[ view_parse ] --START--
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Undefined index:  limit TagLibMyfcms.class.php 第 49 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Undefined index:  type TagLibMyfcms.class.php 第 69 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Undefined index:  limit TagLibMyfcms.class.php 第 81 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Undefined index:  type TagLibMyfcms.class.php 第 69 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Undefined index:  limit TagLibMyfcms.class.php 第 81 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Undefined index:  typeid TagLibMyfcms.class.php 第 166 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Undefined index:  flag TagLibMyfcms.class.php 第 176 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Undefined index:  noflag TagLibMyfcms.class.php 第 183 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_sys` [ RunTime:0.010656s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_sys` WHERE name='cfg_webname'  [ RunTime:0.006478s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant value - assumed 'value' 0573c70d8602d961e53f714ea77bd87c.php 第 16 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.010526s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SELECT `id`,`topid`,`sortrank`,`typename`,`typedir`,`arcnamerule`,`listnamerule`,`classname`,`methodname`,`keywords`,`seotitle`,`description`,`typepro` FROM `myf_arctype` WHERE 1=1  and topid=0 ORDER BY sortrank asc  [ RunTime:0.006888s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Undefined variable: topchannelid 0573c70d8602d961e53f714ea77bd87c.php 第 23 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SELECT `id`,`topid`,`sortrank`,`typename`,`typedir`,`arcnamerule`,`listnamerule`,`classname`,`methodname`,`keywords`,`seotitle`,`description`,`typepro` FROM `myf_arctype` WHERE 1=1  and topid=0 ORDER BY sortrank asc  [ RunTime:0.001487s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' 0573c70d8602d961e53f714ea77bd87c.php 第 36 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_archives` [ RunTime:0.013269s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SELECT `id`,`typeid`,`typename`,`flag`,`click`,`title`,`color`,`writer`,`source`,`litpic`,`keywords`,`description`,`sendtime`,`goodpost`,`badpost`,`adminid`,`adminname` FROM `myf_archives` WHERE 1=1 ORDER BY rand() LIMIT 10   [ RunTime:0.010228s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.014359s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.005329s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.014061s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='3' LIMIT 1   [ RunTime:0.027498s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.008874s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='3' LIMIT 1   [ RunTime:0.004938s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.008875s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.004659s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.008703s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.005054s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.008810s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.004832s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009810s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.005530s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009609s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='4' LIMIT 1   [ RunTime:0.004226s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.010411s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.003548s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009709s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.004066s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant Arctype - assumed 'Arctype' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant typedir - assumed 'typedir' 0573c70d8602d961e53f714ea77bd87c.php 第 44 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_sys` WHERE name='cfg_webname'  [ RunTime:0.000926s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | NOTIC: [8] Use of undefined constant value - assumed 'value' 0573c70d8602d961e53f714ea77bd87c.php 第 49 行.
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SHOW COLUMNS FROM `myf_flink` [ RunTime:0.009737s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | SQL: SELECT * FROM `myf_flink`  [ RunTime:0.004263s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | INFO: Run ParseTemplate Behavior [ RunTime:0.514282s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.514553s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | INFO: Tag[ view_filter ] --START--
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | INFO: Run ContentReplace Behavior [ RunTime:0.004106s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | INFO: Run TokenBuild Behavior [ RunTime:0.004530s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.003336s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | INFO: Run ShowRuntime Behavior [ RunTime:0.004093s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.016809s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | INFO: Tag[ view_end ] --START--
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.006026s ]
+[ 2012-05-23T07:58:11+08:00 ] /myfcms/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.006288s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | INFO: Tag[ route_check ] --START--
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | INFO: Run CheckRoute Behavior [ RunTime:0.005593s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | INFO: Tag[ route_check ] --END-- [ RunTime:0.006291s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | INFO: Tag[ app_begin ] --START--
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001928s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002163s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | SQL: SHOW COLUMNS FROM `myf_archives` [ RunTime:0.009589s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | SQL: SELECT * FROM `myf_archives` WHERE ( `id` = '238' ) LIMIT 1   [ RunTime:0.003303s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009468s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.004287s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | SQL: SELECT * FROM `myf_archives` WHERE typeid=6 and id<238 LIMIT 1   [ RunTime:0.000964s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009881s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.005567s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | SQL: SELECT * FROM `myf_archives` WHERE typeid=6 and id>238 LIMIT 1   [ RunTime:0.001040s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009603s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='6' LIMIT 1   [ RunTime:0.003253s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | SQL: SHOW COLUMNS FROM `myf_sys` [ RunTime:0.011197s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | SQL: SELECT * FROM `myf_sys` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.004756s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | SQL: UPDATE `myf_archives` SET `click`=click+1 WHERE id=238 [ RunTime:0.001825s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | INFO: Tag[ view_template ] --START--
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | INFO: Run LocationTemplate Behavior [ RunTime:0.004257s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | INFO: Tag[ view_template ] --END-- [ RunTime:0.004699s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | INFO: Tag[ view_parse ] --START--
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | NOTIC: [8] Undefined index:  type TagLibMyfcms.class.php 第 69 行.
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | NOTIC: [8] Undefined index:  limit TagLibMyfcms.class.php 第 81 行.
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | SQL: SELECT * FROM `myf_sys` WHERE name='cfg_webname'  [ RunTime:0.000930s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | NOTIC: [8] Use of undefined constant value - assumed 'value' b0aaa8ff64489e1167c404b6d1eaf193.php 第 7 行.
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | SQL: SELECT * FROM `myf_sys` WHERE name='cfg_webname'  [ RunTime:0.000604s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | NOTIC: [8] Use of undefined constant value - assumed 'value' b0aaa8ff64489e1167c404b6d1eaf193.php 第 16 行.
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009034s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | SQL: SELECT `id`,`topid`,`sortrank`,`typename`,`typedir`,`arcnamerule`,`listnamerule`,`classname`,`methodname`,`keywords`,`seotitle`,`description`,`typepro` FROM `myf_arctype` WHERE 1=1  and topid=0 ORDER BY sortrank asc  [ RunTime:0.003489s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 23 行.
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 23 行.
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 23 行.
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 23 行.
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 23 行.
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 23 行.
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 23 行.
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 23 行.
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 23 行.
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | NOTIC: [8] Use of undefined constant typepro - assumed 'typepro' b0aaa8ff64489e1167c404b6d1eaf193.php 第 23 行.
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | SQL: SELECT * FROM `myf_sys` WHERE name='cfg_powerby'  [ RunTime:0.000707s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | NOTIC: [8] Use of undefined constant value - assumed 'value' b0aaa8ff64489e1167c404b6d1eaf193.php 第 52 行.
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | SQL: SELECT * FROM `myf_sys` WHERE name='cfg_beian'  [ RunTime:0.000574s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | NOTIC: [8] Use of undefined constant value - assumed 'value' b0aaa8ff64489e1167c404b6d1eaf193.php 第 52 行.
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | INFO: Run ParseTemplate Behavior [ RunTime:0.083701s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | INFO: Tag[ view_parse ] --END-- [ RunTime:0.083923s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | INFO: Tag[ view_filter ] --START--
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | INFO: Run ContentReplace Behavior [ RunTime:0.002689s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | INFO: Run TokenBuild Behavior [ RunTime:0.001595s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000876s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | INFO: Run ShowRuntime Behavior [ RunTime:0.002510s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | INFO: Tag[ view_filter ] --END-- [ RunTime:0.008375s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | INFO: Tag[ view_end ] --START--
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | INFO: Run ShowPageTrace Behavior [ RunTime:0.002201s ]
+[ 2012-05-23T07:58:14+08:00 ] /myfcms/hulianwang/index-238.html | INFO: Tag[ view_end ] --END-- [ RunTime:0.002464s ]

@@ -1,0 +1,45 @@
+<tagLib name="myfcms" />
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>{$myfcms.title}-<myfcms:global name="cfg_webname" /></title>
+		<meta name="description" content="{$myfcms.description|htmlspecialchars}" />
+		<meta name="keywords" content="{$myfcms.keywords}" />
+		<meta name="author" content="minyifei" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<link type="text/css" rel="stylesheet" href="__MYFCMSPUBLIC__/css/t-main.css" />
+	</head>
+	<body>
+		<div class="main">
+			<include file="./Tpl/touch/Public/top.html" />
+			<div class="position">
+				<strong>当前位置：</strong>:{$myfcms.position}
+			</div>
+			<div class="content">
+				<div class="title">
+					<h1>
+						{$myfcms.title}
+					</h1>
+				</div>
+				<p class="info">
+						时间：<small>{$myfcms.sendtime}</small>
+						点击：<small>{$myfcms.click}次</small><br/>
+						作者：<em>{$myfcms.writer}</em>
+						来源：<em>{$myfcms.source}</em>
+					</p>
+					<div class="arcbody">
+						{$myfcms.body}
+					</div>
+					<p class="arcnav">
+						上一篇：{$myfcms.pre}<br/>
+						下一篇：{$myfcms.next}
+					</p>
+			</div>
+			<include file="./Tpl/touch/Public/footer.html" />
+		</div>
+	</body>
+</html>

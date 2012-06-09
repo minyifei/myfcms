@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>list</title>
+<link type="text/css" rel="stylesheet" href="__APP__/Public/css/list.css" />
+<script type="text/javascript" src="__APP__/Public/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#btnAddTop").click(function(){
+			window.location.href = "__APP__/index.php?m=Arctype&a=add";
+		})
+		
+		
+	})
+</script>
+</head>
+<body>
+	<div class="list-main">
+		<div class="list-top">
+			<div class="position">
+				您现在的位置：栏目管理
+			</div>
+		</div>
+		<form action="__APP__/index.php?m=Arctype&a=sort_rank" method="post">
+		<div class="list-btns">
+			<input type="button" id="btnAddTop" class="bigbtn" value="增加顶级栏目" />
+			<input type="submit" id="btnUpdateSort" class="bigbtn" value="更新排序" />
+		</div>
+		<div class="list-table">
+			<table class="tbl" width="98%" border="0" cellpadding="2" cellspacing="1" bgcolor="#CFCFCF" align="center">
+				<tbody>
+					<tr class="top" height="25">
+						<th width="6%">ID</th>
+						<th width="47%">栏目名称</th>
+						<th width="15%">属性</th>
+						<th width="30%">操作</th>
+					</tr>
+					<volist name="arctypes" id="d">
+						<tr align="center" bgcolor="#fafafa" height="26">
+							<td>{$d.id}</td>
+							<td align="left">{$d.typename}</td>
+							<td>
+								<if condition="$d.typepro eq 2"> 
+								外部连接
+								<elseif condition="$d.typepro eq 1"/>
+								封面栏目
+								<elseif condition="$d.typepro eq 3"/>
+								单页栏目
+								<else /> 
+								最终列表栏目
+								</if>
+							</td>
+							<td>
+								<if condition="$d.typepro neq 2"> 
+									<a href="{$weburl}/index.php?m={$d.classname}&a={$d.methodname}&id={$d.id}" target="_blank">预览</a><span class="split">|</span>
+									<if condition="($d.typepro neq 3)"> 
+									<a href="__APP__/index.php?m=Archives&a=main&typeid={$d.id}">内容</a><span class="split">|</span>
+									</if>
+									<a href="__APP__/index.php?m=Arctype&a=add&topid={$d.id}">增加子类</a><span class="split">|</span>
+								<else />
+									<a href="{$d.typedir}" target="_blank">预览</a><span class="split">|</span>
+									<a href="__APP__/index.php?m=Arctype&a=add&topid={$d.id}">增加子类</a><span class="split">|</span>
+								</if>
+								<a href="__APP__/index.php?m=Arctype&a=update&id={$d.id}">更改</a><span class="split">|</span>
+								<a href="__APP__/index.php?m=Arctype&a=delete_handler&id={$d.id}"  onclick="return(confirm('确定删除?请确保要删除的栏目没有子栏目并且栏目下没有文章'))">删除</a> <span class="split"></span>
+								<input type="text" value="{$d.sortrank}" onkeyup="if(isNaN(value))execCommand('undo')" onafterpaste="if(isNaN(value))execCommand('undo')" name="sortrank_{$d.id}" id="txtSortrank{$d.id}" class="txtlit" />
+							</td>
+						</tr>
+						<volist name="d.childs" id="child">
+							<tr align="center" bgcolor="#FFFFFF" height="26" onmousemove="javascript:this.bgColor='#FAFAF1';" onmouseout="javascript:this.bgColor='#FFFFFF';">
+							<td>{$child.id}</td>
+							<td align="left">--{$child.typename}</td>
+							<td>
+								<if condition="$child.typepro eq 2"> 
+								外部连接
+								<elseif condition="$child.typepro eq 1"/>
+								封面栏目
+								<elseif condition="$child.typepro eq 3"/>
+								单页栏目
+								<else /> 
+								最终列表栏目
+								</if>
+							</td>
+							<td>
+								<if condition="($child.typepro neq 2)"> 
+									<a href="{$weburl}/index.php?m={$child.classname}&a={$child.methodname}&id={$child.id}" target="_blank">预览</a><span class="split">|</span>
+									<if condition="($child.typepro neq 3)"> 
+									<a href="__APP__/index.php?m=Archives&a=main&typeid={$child.id}">内容</a><span class="split">|</span>
+									</if>
+									<else />
+									<a href="{$child.typedir}" target="_blank">预览</a><span class="split">|</span>
+								</if>
+								<a href="__APP__/index.php?m=Arctype&a=update&id={$child.id}">更改</a><span class="split">|</span>
+								<a href="__APP__/index.php?m=Arctype&a=delete_handler&id={$child.id}"  onclick="return(confirm('确定删除?请确保要删除的栏目没有子栏目并且栏目下没有文章'))">删除</a> <span class="split"></span>
+								<input type="text" value="{$child.sortrank}" onkeyup="if(isNaN(value))execCommand('undo')" onafterpaste="if(isNaN(value))execCommand('undo')" name="sortrank_{$child.id}" id="txtSortrank{$child.id}" class="txtlit" />
+							</td>
+						</tr>
+						</volist>
+					</volist>
+				</tbody>
+			</table>
+		</div>
+		</form>
+		<div class="search">
+		</div>
+	</div>
+</body>
+</html>

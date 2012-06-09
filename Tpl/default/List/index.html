@@ -1,0 +1,74 @@
+<tagLib name="myfcms" />
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>{$myfcms.typename}-<myfcms:global name="cfg_webname" /></title>
+		<meta name="description" content="<myfcms:global name="cfg_description" />" />
+		<meta name="keywords" content="<myfcms:global name="cfg_keywords" />" />
+		<meta name="author" content="minyifei.cn" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<link type="text/css" rel="stylesheet" href="__MYFCMSPUBLIC__/css/main.css" />
+	</head>
+	<body>
+		<include file="./Tpl/default/Public/top.html" />
+		<div class="banner">
+			<img src="__MYFCMSPUBLIC__/images/banner.jpg" />
+		</div>
+		<div class="main">
+			<div class="position">
+				<strong>当前位置：</strong>:{$myfcms.position}
+			</div>
+			<div class="list-left">
+				<div class="list-item-info">
+					<div class="news-title">
+						<h2>{$myfcms.typename}</h2>
+						<div class="clear"></div>
+					</div>
+					<ul>
+						  <myfcms:list id="arc" pagesize="15" >
+							<li>
+								<div class="info">
+									<h3><a href="{$arc.arcurl}" target="_blank">{$arc.title}</a></h3>
+									<p class="sendtime">发布日期:<small>{$arc.sendtime}</small></p>
+									<p>{$arc.description}</p>
+								</div>
+							</li>
+						 </myfcms:list>						
+					</ul>
+					<div class="list-page">
+						  <myfcms:pagelist name="mypage" />
+				      	<div class="clear"></div>
+					</div>			
+				</div>	
+			</div>
+			<div class="list-right">
+				<div class="list-sidebar">
+					<h2>热门文章</h2>
+					<ul>
+						<myfcms:arclist id="vo" order="click desc" limit="10" typeid="$topchannelid">
+			                <li>
+			                 <a href="{$vo.arcurl}" title="{$vo.title}" target="_blank">{$vo.title|myfsubstr=0,20}</a> 
+			                </li>
+				        </myfcms:arclist>
+					</ul>
+				</div>
+				<div class="list-sidebar">
+					<h2>随机文章</h2>
+					<ul>
+						<myfcms:arclist id="vo" order="rand()" limit="10" typeid="$topchannelid">
+			                <li>
+			                 <a href="{$vo.arcurl}" title="{$vo.title}" target="_blank">{$vo.title|myfsubstr=0,20}</a> 
+			                </li>
+				        </myfcms:arclist>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<include file="./Tpl/default/Public/footer.html" />
+		</div>
+		
+	</body>
+</html>

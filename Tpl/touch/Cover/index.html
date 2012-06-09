@@ -1,0 +1,51 @@
+<tagLib name="myfcms" />
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>{$myfcms.typename}-<myfcms:global name="cfg_webname" /></title>
+		<meta name="description" content="<myfcms:global name="cfg_description" />" />
+		<meta name="keywords" content="<myfcms:global name="cfg_keywords" />" />
+		<meta name="author" content="minyifei" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<link type="text/css" rel="stylesheet" href="__MYFCMSPUBLIC__/css/t-main.css" />
+	</head>
+	<body>
+		<div class="main">
+			<include file="./Tpl/touch/Public/top.html" />
+			<div class="position">
+				<strong>当前位置：</strong>:{$myfcms.position}
+			</div>
+			<div class="list-item blank">
+				<h2>
+					<a href="javascript:void(0)">最新文章</a>
+				</h2>
+				<ul>
+					<myfcms:arclist id="vo" limit="10" typeid="$topchannelid">
+		                <li>
+		                 <a href="{$vo.arcurl}" title="{$vo.title}" target="_blank">{$vo.title|myfsubstr=0,16}</a>&nbsp;{$vo.sendtime|strtotime|date="m-d",###} 
+		                </li>
+			        </myfcms:arclist>
+				</ul>
+			</div>
+			 <myfcms:channel id="childtype" topid="$topchannelid" >
+				<div class="list-item blank">
+					<h2>
+						<a href="{$childtype.typeurl}">{$childtype.typename}</a>
+					</h2>
+					<ul>
+						<myfcms:arclist id="vo" limit="8" typeid="$childtype[id]">
+			                <li>
+			                 <a href="{$vo.arcurl}" title="{$vo.title}" target="_blank">{$vo.title|myfsubstr=0,16}</a>&nbsp;{$vo.sendtime|strtotime|date="m-d",###} 
+			                </li>
+				        </myfcms:arclist>
+					</ul>
+				</div>
+			</myfcms:channel>
+			<include file="./Tpl/touch/Public/footer.html" />
+		</div>
+	</body>
+</html>

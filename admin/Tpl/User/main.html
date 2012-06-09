@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>管理员管理</title>
+<link type="text/css" rel="stylesheet" href="__APP__/Public/css/list.css" />
+<script type="text/javascript" src="__APP__/Public/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#btnNew").click(function(){
+			window.location.href = "__APP__/index.php?m=User&a=add";
+		})
+	})
+</script>
+</head>
+<body>
+	<div class="list-main">
+		<div class="list-top">
+			<div class="position">
+				您现在的位置：管理员管理
+			</div>
+		</div>
+		<div class="list-btns">
+			<input type="button" id="btnNew" class="btn" value="新建" />
+		</div>
+		<div class="list-table">
+			<table class="tbl" width="98%" border="0" cellpadding="2" cellspacing="1" bgcolor="#CFCFCF" align="center">
+				<tbody>
+					<tr class="top" height="25">
+						<th width="33%">登录ID</th>
+						<th width="10%">笔名</th>
+						<th width="12%">登录时间</th>
+						<th width="12%">登录IP</th>
+						<th width="12%">创建时间</th>
+						<th width="10%">操作</th>
+					</tr>
+					<volist name="users" id="vo">
+						<tr align="center" bgcolor="#FFFFFF" height="26" onmousemove="javascript:this.bgColor='#fafafa';" onmouseout="javascript:this.bgColor='#FFFFFF';">
+							<td align="center">
+								{$vo.userid}
+							</td>
+							<td>
+							{$vo.uname}
+							</td>
+							<td>
+								{$vo.logintime}
+							</td>
+							<td>
+								{$vo.loginip}
+							</td>
+							<td>
+								{$vo.createtime}
+							</td>
+							<td>
+								<a href="__APP__/index.php?m=User&a=update&id={$vo.id}">[更改]</a>&nbsp;
+								<a href="__APP__/index.php?m=User&a=delete&id={$vo.id}">[删除]</a>
+							</td>
+						</tr>
+					</volist>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	</form>
+</body>
+</html>

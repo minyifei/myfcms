@@ -1,0 +1,18 @@
+<div class="top">
+	<div class="logo">
+		<a href="__MYFCMS__/"> <img src="__MYFCMSPUBLIC__/images/t-logo.jpg" /> </a>
+	</div>
+</div>
+<div class="nav-menu">
+	<ul>
+		<li> 
+			<a  <empty name="topchannelid">class="on"</empty>  href="__MYFCMS__/">首页</a>
+		</li>
+		<myfcms:channel id="toptype" topid="0" >
+			<li>
+			  <a  <eq name="toptype.id" value="$topchannelid">class="on"</eq>  href="{$toptype.typeurl}">{$toptype.typename}</a>
+			</li>
+		</myfcms:channel>
+	</ul>
+	<div class="clear"></div>
+</div>

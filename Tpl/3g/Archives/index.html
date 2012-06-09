@@ -1,0 +1,43 @@
+<tagLib name="myfcms" />
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="application/vnd.wap.xhtml+xml;charset=utf-8" />
+<meta content="max-age=1700" http-equiv="Cache-control">
+<meta name="viewport" content = "width=device-width; initial-scale=1.3;  minimum-scale=1.0; maximum-scale=2.0" />
+<meta content="240" name="MobileOptimized">
+<meta content="telephone=no" name="format-detection">
+<title>{$myfcms.title}-<myfcms:global name="cfg_webname" /></title>
+<meta name="description" content="{$myfcms.description|htmlspecialchars}" />
+<meta name="keywords" content="{$myfcms.keywords}" />
+<link type="text/css" rel="stylesheet" href="__MYFCMSPUBLIC__/css/3g-main.css" />
+</head>
+<body>
+	<include file="./Tpl/3g/Public/top.html" />	
+	<div class="position">
+		<strong>当前位置：</strong>:{$myfcms.position}
+	</div>
+	<div class="content">
+		<div class="title">
+			<h1>
+				{$myfcms.title}
+			</h1>
+		</div>
+		<p class="info">
+			时间：<small>{$myfcms.sendtime}</small>
+			点击：<small>{$myfcms.click}次</small>
+			作者：<em>{$myfcms.writer}</em>
+			来源：<em>{$myfcms.source}</em>
+		</p>
+		<div class="arcbody">
+			{$myfcms.body}
+		</div>
+		<p class="arcnav">
+			上一篇：{$myfcms.pre}<br/>
+			下一篇：{$myfcms.next}
+		</p>
+</div>
+	<include file="./Tpl/3g/Public/footer.html" />
+</body>
+</html>

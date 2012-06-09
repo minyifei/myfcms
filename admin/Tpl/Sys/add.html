@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>添加系统变量</title>
+		<link type="text/css" rel="stylesheet" href="__APP__/Public/css/add.css" />
+		<script type="text/javascript" src="__APP__/Public/js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#btnSubmit").click(function(){
+					var name = $.trim($("#txtName").val());
+					if(系统设置 == ""){
+						alert("变量名称不能为空！");
+						return false;
+					}
+					var value = $.trim($("#txtValue").val());
+					if(value == ""){
+						alert("变量值不能为空！");
+						return false;
+					}
+					var info = $.trim($("#txtInfo").val());
+					if(info == ""){
+						alert("说明不能为空！");
+						return false;
+					}
+					
+				})
+			})
+			
+		</script>
+	</head>
+	<body>
+		<div class="main">
+			<div class="top">
+				<div class="position">
+					您现在的位置：<a href="__APP__/index.php?m=Sys&a=main">系统设置</a><span class="split">&gt;</span>添加系统变量
+				</div>
+			</div>
+			<div class="center">
+				<form action="__APP__/index.php?m=Sys&a=add_handler" method="post">
+				<table width="100%">
+					<tbody>
+						<tr height="24" >
+							<td class="bline">
+								<table width="800" border="0" cellspacing="0" cellpadding="0">
+						          <tbody>
+						          	<tr>
+						            <td width="140">&nbsp;变量名：</td>
+						            <td width="390">
+						            	<input name="name" type="text" id="txtName" value="user_cfg_" style="width:328px">
+						            </td>
+						            <td width="250">
+						            	建议以“user_cfg_”开头
+						            </td>
+						          </tr>
+						        </tbody>
+						        </table>
+							</td>
+						</tr>
+						<tr height="24" >
+							<td class="bline">
+								<table width="800" border="0" cellspacing="0" cellpadding="0">
+						          <tbody>
+						          	<tr>
+						            <td width="140">&nbsp;变量值：</td>
+						            <td width="390">
+						            	<input name="value" type="text" id="txtValue" value="" style="width:328px">
+						            </td>
+						            <td width="250"></td>
+						          </tr>
+						        </tbody>
+						        </table>
+							</td>
+						</tr>
+						<tr>
+							<td class="bline">
+								<table width="800" border="0" cellspacing="0" cellpadding="0">
+						          <tbody><tr>
+						            <td width="140">&nbsp;变量说明：</td>
+						            <td width="390">
+						            	<input name="info" type="text" id="txtInfo" style="width:328px" value="">
+						            </td>
+						            <td width="250"></td>
+						          </tr>
+						       </tbody>
+						       </table>
+							</td>
+						</tr>
+						<tr>
+							<td class="bline">
+								<table width="800" border="0" cellspacing="0" cellpadding="0">
+						          <tbody><tr>
+						            <td width="140">&nbsp;变量类型：</td>
+						            <td width="390">
+						            	<input type="radio" name="valuetype" value="string" checked="checked" />文本
+						            	<input type="radio" name="valuetype" value="text" />多行文本
+						            </td>
+						            <td width="250"></td>
+						          </tr>
+						       </tbody>
+						       </table>
+							</td>
+						</tr>
+						<tr>
+							<td height="28" colspan="2" bgcolor="#F9FCEF" class="bline3" >
+								<input type="submit" id="btnSubmit" class="btn" value="保存" />
+								<input type="reset" id="btnReset" class="btn" value="重置" />
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				</form>
+			</div>
+		</div>
+		
+	</body>
+</html>

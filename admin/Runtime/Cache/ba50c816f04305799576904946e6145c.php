@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>我的封面栏目-列表封面页模版

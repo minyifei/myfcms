@@ -1,0 +1,509 @@
+[ 2012-06-06T08:37:49+08:00 ] /myfcms/admin/index.php?m=Login&a=index | INFO: Tag[ app_begin ] --START--
+[ 2012-06-06T08:37:49+08:00 ] /myfcms/admin/index.php?m=Login&a=index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001894s ]
+[ 2012-06-06T08:37:49+08:00 ] /myfcms/admin/index.php?m=Login&a=index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002267s ]
+[ 2012-06-06T08:37:49+08:00 ] /myfcms/admin/index.php?m=Login&a=index | INFO: Tag[ view_template ] --START--
+[ 2012-06-06T08:37:49+08:00 ] /myfcms/admin/index.php?m=Login&a=index | INFO: Run LocationTemplate Behavior [ RunTime:0.004056s ]
+[ 2012-06-06T08:37:49+08:00 ] /myfcms/admin/index.php?m=Login&a=index | INFO: Tag[ view_template ] --END-- [ RunTime:0.004401s ]
+[ 2012-06-06T08:37:49+08:00 ] /myfcms/admin/index.php?m=Login&a=index | INFO: Tag[ view_parse ] --START--
+[ 2012-06-06T08:37:49+08:00 ] /myfcms/admin/index.php?m=Login&a=index | INFO: Run ParseTemplate Behavior [ RunTime:0.050961s ]
+[ 2012-06-06T08:37:49+08:00 ] /myfcms/admin/index.php?m=Login&a=index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.051534s ]
+[ 2012-06-06T08:37:49+08:00 ] /myfcms/admin/index.php?m=Login&a=index | INFO: Tag[ view_filter ] --START--
+[ 2012-06-06T08:37:49+08:00 ] /myfcms/admin/index.php?m=Login&a=index | INFO: Run ContentReplace Behavior [ RunTime:0.001526s ]
+[ 2012-06-06T08:37:49+08:00 ] /myfcms/admin/index.php?m=Login&a=index | INFO: Run TokenBuild Behavior [ RunTime:0.001584s ]
+[ 2012-06-06T08:37:49+08:00 ] /myfcms/admin/index.php?m=Login&a=index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000918s ]
+[ 2012-06-06T08:37:49+08:00 ] /myfcms/admin/index.php?m=Login&a=index | INFO: Run ShowRuntime Behavior [ RunTime:0.002262s ]
+[ 2012-06-06T08:37:49+08:00 ] /myfcms/admin/index.php?m=Login&a=index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006972s ]
+[ 2012-06-06T08:37:49+08:00 ] /myfcms/admin/index.php?m=Login&a=index | INFO: Tag[ view_end ] --START--
+[ 2012-06-06T08:37:49+08:00 ] /myfcms/admin/index.php?m=Login&a=index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001872s ]
+[ 2012-06-06T08:37:49+08:00 ] /myfcms/admin/index.php?m=Login&a=index | INFO: Tag[ view_end ] --END-- [ RunTime:0.002119s ]
+[ 2012-06-06T08:37:49+08:00 ] /myfcms/admin/index.php?m=Login&a=verify | INFO: Tag[ app_begin ] --START--
+[ 2012-06-06T08:37:49+08:00 ] /myfcms/admin/index.php?m=Login&a=verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.005938s ]
+[ 2012-06-06T08:37:49+08:00 ] /myfcms/admin/index.php?m=Login&a=verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.006366s ]
+[ 2012-06-06T08:37:55+08:00 ] /myfcms/admin/index.php?m=Login&a=login_in | INFO: Tag[ app_begin ] --START--
+[ 2012-06-06T08:37:55+08:00 ] /myfcms/admin/index.php?m=Login&a=login_in | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002085s ]
+[ 2012-06-06T08:37:55+08:00 ] /myfcms/admin/index.php?m=Login&a=login_in | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002479s ]
+[ 2012-06-06T08:37:55+08:00 ] /myfcms/admin/index.php?m=Login&a=login_in | SQL: SHOW COLUMNS FROM `myf_admin` [ RunTime:0.040762s ]
+[ 2012-06-06T08:37:55+08:00 ] /myfcms/admin/index.php?m=Login&a=login_in | SQL: SELECT * FROM `myf_admin` WHERE ( `userid` = 'admin' )  [ RunTime:0.003058s ]
+[ 2012-06-06T08:37:55+08:00 ] /myfcms/admin/index.php?m=Login&a=login_in | INFO: Tag[ view_template ] --START--
+[ 2012-06-06T08:37:55+08:00 ] /myfcms/admin/index.php?m=Login&a=login_in | INFO: Run LocationTemplate Behavior [ RunTime:0.006004s ]
+[ 2012-06-06T08:37:55+08:00 ] /myfcms/admin/index.php?m=Login&a=login_in | INFO: Tag[ view_template ] --END-- [ RunTime:0.006269s ]
+[ 2012-06-06T08:37:55+08:00 ] /myfcms/admin/index.php?m=Login&a=login_in | INFO: Tag[ view_parse ] --START--
+[ 2012-06-06T08:37:55+08:00 ] /myfcms/admin/index.php?m=Login&a=login_in | INFO: Run ParseTemplate Behavior [ RunTime:0.050907s ]
+[ 2012-06-06T08:37:55+08:00 ] /myfcms/admin/index.php?m=Login&a=login_in | INFO: Tag[ view_parse ] --END-- [ RunTime:0.051245s ]
+[ 2012-06-06T08:37:55+08:00 ] /myfcms/admin/index.php?m=Login&a=login_in | INFO: Tag[ view_filter ] --START--
+[ 2012-06-06T08:37:55+08:00 ] /myfcms/admin/index.php?m=Login&a=login_in | INFO: Run ContentReplace Behavior [ RunTime:0.003892s ]
+[ 2012-06-06T08:37:55+08:00 ] /myfcms/admin/index.php?m=Login&a=login_in | INFO: Run TokenBuild Behavior [ RunTime:0.004601s ]
+[ 2012-06-06T08:37:55+08:00 ] /myfcms/admin/index.php?m=Login&a=login_in | INFO: Run WriteHtmlCache Behavior [ RunTime:0.003277s ]
+[ 2012-06-06T08:37:55+08:00 ] /myfcms/admin/index.php?m=Login&a=login_in | INFO: Run ShowRuntime Behavior [ RunTime:0.003979s ]
+[ 2012-06-06T08:37:55+08:00 ] /myfcms/admin/index.php?m=Login&a=login_in | INFO: Tag[ view_filter ] --END-- [ RunTime:0.016398s ]
+[ 2012-06-06T08:37:55+08:00 ] /myfcms/admin/index.php?m=Login&a=login_in | INFO: Tag[ view_end ] --START--
+[ 2012-06-06T08:37:55+08:00 ] /myfcms/admin/index.php?m=Login&a=login_in | INFO: Run ShowPageTrace Behavior [ RunTime:0.004506s ]
+[ 2012-06-06T08:37:55+08:00 ] /myfcms/admin/index.php?m=Login&a=login_in | INFO: Tag[ view_end ] --END-- [ RunTime:0.004749s ]
+[ 2012-06-06T08:37:56+08:00 ] /myfcms/admin/index.php | INFO: Tag[ app_begin ] --START--
+[ 2012-06-06T08:37:56+08:00 ] /myfcms/admin/index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001966s ]
+[ 2012-06-06T08:37:56+08:00 ] /myfcms/admin/index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002314s ]
+[ 2012-06-06T08:37:56+08:00 ] /myfcms/admin/index.php | SQL: SHOW COLUMNS FROM `myf_sys` [ RunTime:0.008262s ]
+[ 2012-06-06T08:37:56+08:00 ] /myfcms/admin/index.php | SQL: SELECT * FROM `myf_sys` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.002486s ]
+[ 2012-06-06T08:37:56+08:00 ] /myfcms/admin/index.php | INFO: Tag[ view_template ] --START--
+[ 2012-06-06T08:37:56+08:00 ] /myfcms/admin/index.php | INFO: Run LocationTemplate Behavior [ RunTime:0.004292s ]
+[ 2012-06-06T08:37:56+08:00 ] /myfcms/admin/index.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.004541s ]
+[ 2012-06-06T08:37:56+08:00 ] /myfcms/admin/index.php | INFO: Tag[ view_parse ] --START--
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php | INFO: Run ParseTemplate Behavior [ RunTime:0.087434s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.087759s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php | INFO: Tag[ view_filter ] --START--
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php | INFO: Run ContentReplace Behavior [ RunTime:0.001571s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php | INFO: Run TokenBuild Behavior [ RunTime:0.001735s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000917s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php | INFO: Run ShowRuntime Behavior [ RunTime:0.001591s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006553s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php | INFO: Tag[ view_end ] --START--
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.001589s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.001812s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=left | INFO: Tag[ app_begin ] --START--
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=left | INFO: Run ReadHtmlCache Behavior [ RunTime:0.033120s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=left | INFO: Tag[ app_begin ] --END-- [ RunTime:0.033512s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=left | INFO: Tag[ view_template ] --START--
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=left | INFO: Run LocationTemplate Behavior [ RunTime:0.007096s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=left | INFO: Tag[ view_template ] --END-- [ RunTime:0.025889s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=left | INFO: Tag[ view_parse ] --START--
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=left | INFO: Run ParseTemplate Behavior [ RunTime:0.129288s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=left | INFO: Tag[ view_parse ] --END-- [ RunTime:0.129617s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=left | INFO: Tag[ view_filter ] --START--
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=left | INFO: Run ContentReplace Behavior [ RunTime:0.003978s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=left | INFO: Run TokenBuild Behavior [ RunTime:0.005189s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=left | INFO: Run WriteHtmlCache Behavior [ RunTime:0.003303s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=left | INFO: Run ShowRuntime Behavior [ RunTime:0.006368s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=left | INFO: Tag[ view_filter ] --END-- [ RunTime:0.019560s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=left | INFO: Tag[ view_end ] --START--
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=left | INFO: Run ShowPageTrace Behavior [ RunTime:0.004024s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=left | INFO: Tag[ view_end ] --END-- [ RunTime:0.004268s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=main | INFO: Tag[ app_begin ] --START--
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=main | INFO: Run ReadHtmlCache Behavior [ RunTime:0.004612s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=main | INFO: Tag[ app_begin ] --END-- [ RunTime:0.004985s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SHOW COLUMNS FROM `myf_archives` [ RunTime:0.013724s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SELECT `id`,`typeid`,`typename`,`flag`,`click`,`title`,`color`,`writer`,`source`,`litpic`,`keywords`,`description`,`sendtime`,`goodpost`,`badpost`,`adminid`,`adminname`,`ishtml` FROM `myf_archives` ORDER BY id desc LIMIT 0,10   [ RunTime:0.004281s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.043272s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='11' LIMIT 1   [ RunTime:0.008489s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009182s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.004426s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.012581s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.006999s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009709s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.004635s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.014027s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003659s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.010250s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.011314s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.010005s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.005651s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.010462s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.006878s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.010286s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.004859s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.012251s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.004872s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SHOW COLUMNS FROM `myf_admin` [ RunTime:0.010264s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SELECT COUNT(*) AS tp_count FROM `myf_admin` LIMIT 1   [ RunTime:0.025621s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SHOW COLUMNS FROM `myf_archives` [ RunTime:0.016173s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | SQL: SELECT COUNT(*) AS tp_count FROM `myf_archives` LIMIT 1   [ RunTime:0.008444s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | INFO: Tag[ view_template ] --START--
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | INFO: Run LocationTemplate Behavior [ RunTime:0.006697s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | INFO: Tag[ view_template ] --END-- [ RunTime:0.006976s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | INFO: Tag[ view_parse ] --START--
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | INFO: Run ParseTemplate Behavior [ RunTime:0.147071s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | INFO: Tag[ view_parse ] --END-- [ RunTime:0.147375s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | INFO: Tag[ view_filter ] --START--
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | INFO: Run ContentReplace Behavior [ RunTime:0.008352s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | INFO: Run TokenBuild Behavior [ RunTime:0.004441s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | INFO: Run WriteHtmlCache Behavior [ RunTime:0.004210s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | INFO: Run ShowRuntime Behavior [ RunTime:0.004269s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | INFO: Tag[ view_filter ] --END-- [ RunTime:0.022017s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | INFO: Tag[ view_end ] --START--
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | INFO: Run ShowPageTrace Behavior [ RunTime:0.004566s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=main | INFO: Tag[ view_end ] --END-- [ RunTime:0.004805s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=top | INFO: Tag[ app_begin ] --START--
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=top | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001972s ]
+[ 2012-06-06T08:37:57+08:00 ] /myfcms/admin/index.php?m=Index&a=top | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002326s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=top | SQL: SHOW COLUMNS FROM `myf_sys` [ RunTime:0.034986s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=top | SQL: SELECT * FROM `myf_sys` WHERE id<3  [ RunTime:0.054058s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=top | INFO: Tag[ view_template ] --START--
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=top | INFO: Run LocationTemplate Behavior [ RunTime:0.004128s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=top | INFO: Tag[ view_template ] --END-- [ RunTime:0.004379s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=top | INFO: Tag[ view_parse ] --START--
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=top | INFO: Run ParseTemplate Behavior [ RunTime:0.048434s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=top | INFO: Tag[ view_parse ] --END-- [ RunTime:0.048727s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=top | INFO: Tag[ view_filter ] --START--
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=top | INFO: Run ContentReplace Behavior [ RunTime:0.001339s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=top | INFO: Run TokenBuild Behavior [ RunTime:0.001354s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=top | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000826s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=top | INFO: Run ShowRuntime Behavior [ RunTime:0.001639s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=top | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005777s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=top | INFO: Tag[ view_end ] --START--
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=top | INFO: Run ShowPageTrace Behavior [ RunTime:0.001567s ]
+[ 2012-06-06T08:37:58+08:00 ] /myfcms/admin/index.php?m=Index&a=top | INFO: Tag[ view_end ] --END-- [ RunTime:0.001800s ]
+[ 2012-06-06T08:38:00+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ app_begin ] --START--
+[ 2012-06-06T08:38:00+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001941s ]
+[ 2012-06-06T08:38:00+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002371s ]
+[ 2012-06-06T08:38:00+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | NOTIC: [8] Undefined index:  p ArchivesAction.class.php 第 22 行.
+[ 2012-06-06T08:38:00+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | NOTIC: [8] Undefined index:  keyword ArchivesAction.class.php 第 28 行.
+[ 2012-06-06T08:38:00+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | NOTIC: [8] Undefined index:  typeid ArchivesAction.class.php 第 33 行.
+[ 2012-06-06T08:38:00+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_archives` [ RunTime:0.014217s ]
+[ 2012-06-06T08:38:00+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT COUNT(*) AS tp_count FROM `myf_archives` WHERE 1=1 LIMIT 1   [ RunTime:0.005169s ]
+[ 2012-06-06T08:38:00+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | NOTIC: [2] Missing argument 5 for Page::__construct(), called in D:\AppServ\www\myfcms\admin\Lib\Action\ArchivesAction.class.php on line 48 and defined Page.class.php 第 48 行.
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_archives` [ RunTime:0.010763s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT `id`,`typeid`,`typename`,`flag`,`click`,`title`,`color`,`writer`,`source`,`litpic`,`keywords`,`description`,`sendtime`,`goodpost`,`badpost`,`adminid`,`adminname`,`ishtml` FROM `myf_archives` WHERE 1=1 ORDER BY id desc LIMIT 0,20   [ RunTime:0.004365s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.011116s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='11' LIMIT 1   [ RunTime:0.004266s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009315s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.004589s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009420s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003248s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009355s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003090s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009790s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003044s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009538s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003726s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.010584s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003441s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009749s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.004063s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009693s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003906s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.008927s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.001877s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009251s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.004593s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.008820s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.004301s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009026s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003271s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.008907s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.002761s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009293s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.005505s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009989s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.004711s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.010079s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003794s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009794s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003237s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009754s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003656s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.010137s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003141s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_sys` [ RunTime:0.009861s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_sys` WHERE id<3  [ RunTime:0.004218s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.020333s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT `id`,`topid`,`sortrank`,`typename`,`typedir`,`arcnamerule`,`listnamerule`,`classname`,`methodname`,`keywords`,`seotitle`,`description`,`typepro` FROM `myf_arctype` ORDER BY sortrank asc  [ RunTime:0.003617s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ view_template ] --START--
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Run LocationTemplate Behavior [ RunTime:0.004151s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ view_template ] --END-- [ RunTime:0.004411s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ view_parse ] --START--
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Run ParseTemplate Behavior [ RunTime:0.088707s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ view_parse ] --END-- [ RunTime:0.089058s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ view_filter ] --START--
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Run ContentReplace Behavior [ RunTime:0.002023s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Run TokenBuild Behavior [ RunTime:0.002294s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001004s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Run ShowRuntime Behavior [ RunTime:0.002084s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ view_filter ] --END-- [ RunTime:0.008282s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\AppServ\www\myfcms\admin\Lib\Action\ArchivesAction.class.php:355) View.class.php 第 120 行.
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\AppServ\www\myfcms\admin\Lib\Action\ArchivesAction.class.php:355) View.class.php 第 121 行.
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\AppServ\www\myfcms\admin\Lib\Action\ArchivesAction.class.php:355) View.class.php 第 122 行.
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ view_end ] --START--
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Run ShowPageTrace Behavior [ RunTime:0.014555s ]
+[ 2012-06-06T08:38:01+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ view_end ] --END-- [ RunTime:0.014879s ]
+[ 2012-06-06T08:38:05+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=19 | INFO: Tag[ app_begin ] --START--
+[ 2012-06-06T08:38:05+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=19 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002369s ]
+[ 2012-06-06T08:38:05+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=19 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002749s ]
+[ 2012-06-06T08:38:05+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=19 | SQL: SHOW COLUMNS FROM `myf_archives` [ RunTime:0.009607s ]
+[ 2012-06-06T08:38:05+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=19 | SQL: SELECT * FROM `myf_archives` WHERE ( `id` = '19' ) LIMIT 1   [ RunTime:0.002119s ]
+[ 2012-06-06T08:38:05+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=19 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.008971s ]
+[ 2012-06-06T08:38:05+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=19 | SQL: SELECT `id`,`topid`,`sortrank`,`typename`,`typedir`,`arcnamerule`,`listnamerule`,`classname`,`methodname`,`keywords`,`seotitle`,`description`,`typepro` FROM `myf_arctype` ORDER BY sortrank asc  [ RunTime:0.003203s ]
+[ 2012-06-06T08:38:05+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=19 | INFO: Tag[ view_template ] --START--
+[ 2012-06-06T08:38:05+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=19 | INFO: Run LocationTemplate Behavior [ RunTime:0.004075s ]
+[ 2012-06-06T08:38:05+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=19 | INFO: Tag[ view_template ] --END-- [ RunTime:0.004477s ]
+[ 2012-06-06T08:38:05+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=19 | INFO: Tag[ view_parse ] --START--
+[ 2012-06-06T08:38:05+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=19 | INFO: Run ParseTemplate Behavior [ RunTime:0.098731s ]
+[ 2012-06-06T08:38:05+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=19 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.099056s ]
+[ 2012-06-06T08:38:05+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=19 | INFO: Tag[ view_filter ] --START--
+[ 2012-06-06T08:38:05+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=19 | INFO: Run ContentReplace Behavior [ RunTime:0.001531s ]
+[ 2012-06-06T08:38:05+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=19 | INFO: Run TokenBuild Behavior [ RunTime:0.001764s ]
+[ 2012-06-06T08:38:05+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=19 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000861s ]
+[ 2012-06-06T08:38:05+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=19 | INFO: Run ShowRuntime Behavior [ RunTime:0.001683s ]
+[ 2012-06-06T08:38:05+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=19 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006443s ]
+[ 2012-06-06T08:38:05+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=19 | NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\AppServ\www\myfcms\admin\Lib\Action\ArchivesAction.class.php:355) View.class.php 第 120 行.
+[ 2012-06-06T08:38:05+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=19 | NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\AppServ\www\myfcms\admin\Lib\Action\ArchivesAction.class.php:355) View.class.php 第 121 行.
+[ 2012-06-06T08:38:05+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=19 | NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\AppServ\www\myfcms\admin\Lib\Action\ArchivesAction.class.php:355) View.class.php 第 122 行.
+[ 2012-06-06T08:38:05+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=19 | INFO: Tag[ view_end ] --START--
+[ 2012-06-06T08:38:05+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=19 | INFO: Run ShowPageTrace Behavior [ RunTime:0.004040s ]
+[ 2012-06-06T08:38:05+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=19 | INFO: Tag[ view_end ] --END-- [ RunTime:0.004460s ]
+[ 2012-06-06T08:38:11+08:00 ] /myfcms/admin/index.php?m=Archives&a=uploadpic | INFO: Tag[ app_begin ] --START--
+[ 2012-06-06T08:38:11+08:00 ] /myfcms/admin/index.php?m=Archives&a=uploadpic | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002013s ]
+[ 2012-06-06T08:38:11+08:00 ] /myfcms/admin/index.php?m=Archives&a=uploadpic | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002377s ]
+[ 2012-06-06T08:38:12+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Tag[ app_begin ] --START--
+[ 2012-06-06T08:38:12+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001990s ]
+[ 2012-06-06T08:38:12+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002366s ]
+[ 2012-06-06T08:38:13+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.008855s ]
+[ 2012-06-06T08:38:13+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | SQL: SELECT * FROM `myf_arctype` WHERE ( `id` = '7' ) LIMIT 1   [ RunTime:0.002476s ]
+[ 2012-06-06T08:38:13+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | SQL: SHOW COLUMNS FROM `myf_archives` [ RunTime:0.009393s ]
+[ 2012-06-06T08:38:13+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | SQL: UPDATE `myf_archives` SET `title`='去上海看爸爸 ',`litpic`='20120606083811120.jpg',`flag`='c,p',`keywords`='爸爸,看,上海,去,去上海看爸爸',`color`='#000000',`source`='',`writer`='',`typeid`='7',`typename`='小学作文',`description`='10月2日上午，上海的一位老伯伯来到我家，接我和奶奶到上海去看爸爸。因为爸爸的眼睛开刀了，他不用再戴眼镜了，所以我急着想去看看不戴眼镜的爸爸到底是啥样的。 一路上车子开得飞快，不一会儿就上了高速公路。到,去上海看爸爸',`sendtime`='2012-05-26 20:08:11',`click`='13',`body`='<p>　　10月2日上午，上海的一位老伯伯来到我家，接我和奶奶到上海去看爸爸。因为爸爸的眼睛开刀了，他不用再戴眼镜了，所以我急着想去看看不戴眼镜的爸爸到底是啥样的。</p><p>　　一路上车子开得飞快，不一会儿就上了高速公路。到了上海后，我看到宽阔整洁的街道，高耸入云的高楼大厦。正当我看得入迷时，突然，老伯伯将车停了下来。我急忙问老伯伯：“您怎么不开了？”老伯伯笑了笑说：“因为我不认识路了，你爸老说我是路盲，看来是真的。”我就对老伯伯说：“我家住在博山东路的东方知音。”其实他是知道在哪，就是不知咋开过去。后来老伯伯费了九牛二虎之力，终于开到了我家门口。这时爸爸从楼上走下来将我们接进了屋。</p><p>　　到了家里，我迫不及待地问爸爸：“您的眼睛现在还疼吗？”爸爸摸了摸我的头说：“不疼，一点都不疼！”我又问：“眼睛开刀您怕不怕呢？”爸爸微笑着说：“不怕！”“这是什么手术呀？”“是治疗近视眼的激光手术。”爸爸又说道：“因为我不想再戴眼镜了。戴着眼镜特麻烦，游泳啦，打球啦，出去玩啦，都不方便，特别是还当不了兵！所以你要保护好自己的眼睛噢！”</p><p>　　听了爸爸的话，我使劲地点了点头，心中暗暗发誓：以后写字时头一定要抬高，看书的时候头要离书本一尺，尽量少看电视，不玩电脑。要是我也近视了，不能自由地参加活动，连我考军校的梦想都破灭了，那多亏呀！<br />&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /></p>' WHERE id=19 [ RunTime:0.002364s ]
+[ 2012-06-06T08:38:13+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Tag[ view_template ] --START--
+[ 2012-06-06T08:38:13+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Run LocationTemplate Behavior [ RunTime:0.003507s ]
+[ 2012-06-06T08:38:13+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Tag[ view_template ] --END-- [ RunTime:0.003842s ]
+[ 2012-06-06T08:38:13+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Tag[ view_parse ] --START--
+[ 2012-06-06T08:38:13+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Run ParseTemplate Behavior [ RunTime:0.037584s ]
+[ 2012-06-06T08:38:13+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Tag[ view_parse ] --END-- [ RunTime:0.037888s ]
+[ 2012-06-06T08:38:13+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Tag[ view_filter ] --START--
+[ 2012-06-06T08:38:13+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Run ContentReplace Behavior [ RunTime:0.001301s ]
+[ 2012-06-06T08:38:13+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Run TokenBuild Behavior [ RunTime:0.001283s ]
+[ 2012-06-06T08:38:13+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000810s ]
+[ 2012-06-06T08:38:13+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Run ShowRuntime Behavior [ RunTime:0.001535s ]
+[ 2012-06-06T08:38:13+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005560s ]
+[ 2012-06-06T08:38:13+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\AppServ\www\myfcms\admin\Lib\Action\ArchivesAction.class.php:355) View.class.php 第 120 行.
+[ 2012-06-06T08:38:13+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\AppServ\www\myfcms\admin\Lib\Action\ArchivesAction.class.php:355) View.class.php 第 121 行.
+[ 2012-06-06T08:38:13+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\AppServ\www\myfcms\admin\Lib\Action\ArchivesAction.class.php:355) View.class.php 第 122 行.
+[ 2012-06-06T08:38:13+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Tag[ view_end ] --START--
+[ 2012-06-06T08:38:13+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Run ShowPageTrace Behavior [ RunTime:0.001606s ]
+[ 2012-06-06T08:38:13+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Tag[ view_end ] --END-- [ RunTime:0.001833s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ app_begin ] --START--
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002651s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ app_begin ] --END-- [ RunTime:0.003066s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | NOTIC: [8] Undefined index:  p ArchivesAction.class.php 第 22 行.
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | NOTIC: [8] Undefined index:  keyword ArchivesAction.class.php 第 28 行.
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | NOTIC: [8] Undefined index:  typeid ArchivesAction.class.php 第 33 行.
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_archives` [ RunTime:0.010863s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT COUNT(*) AS tp_count FROM `myf_archives` WHERE 1=1 LIMIT 1   [ RunTime:0.002667s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | NOTIC: [2] Missing argument 5 for Page::__construct(), called in D:\AppServ\www\myfcms\admin\Lib\Action\ArchivesAction.class.php on line 48 and defined Page.class.php 第 48 行.
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_archives` [ RunTime:0.010305s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT `id`,`typeid`,`typename`,`flag`,`click`,`title`,`color`,`writer`,`source`,`litpic`,`keywords`,`description`,`sendtime`,`goodpost`,`badpost`,`adminid`,`adminname`,`ishtml` FROM `myf_archives` WHERE 1=1 ORDER BY id desc LIMIT 0,20   [ RunTime:0.003730s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.008852s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='11' LIMIT 1   [ RunTime:0.003180s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009087s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003207s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.011421s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.005780s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.013444s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.004213s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009409s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003999s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009120s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003421s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.008922s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003639s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009275s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.004982s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.008810s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003152s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.008635s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.002904s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009375s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.002590s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009026s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003088s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.010922s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.002950s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009683s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003402s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009396s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003732s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.008933s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.002987s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.010163s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.004110s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.008756s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003459s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.008687s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003375s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.008638s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003098s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_sys` [ RunTime:0.008139s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_sys` WHERE id<3  [ RunTime:0.003373s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009403s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT `id`,`topid`,`sortrank`,`typename`,`typedir`,`arcnamerule`,`listnamerule`,`classname`,`methodname`,`keywords`,`seotitle`,`description`,`typepro` FROM `myf_arctype` ORDER BY sortrank asc  [ RunTime:0.004693s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ view_template ] --START--
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Run LocationTemplate Behavior [ RunTime:0.004326s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ view_template ] --END-- [ RunTime:0.004584s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ view_parse ] --START--
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Run ParseTemplate Behavior [ RunTime:0.065647s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ view_parse ] --END-- [ RunTime:0.065949s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ view_filter ] --START--
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Run ContentReplace Behavior [ RunTime:0.002190s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Run TokenBuild Behavior [ RunTime:0.002591s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000868s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Run ShowRuntime Behavior [ RunTime:0.001719s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ view_filter ] --END-- [ RunTime:0.008016s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\AppServ\www\myfcms\admin\Lib\Action\ArchivesAction.class.php:355) View.class.php 第 120 行.
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\AppServ\www\myfcms\admin\Lib\Action\ArchivesAction.class.php:355) View.class.php 第 121 行.
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\AppServ\www\myfcms\admin\Lib\Action\ArchivesAction.class.php:355) View.class.php 第 122 行.
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ view_end ] --START--
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Run ShowPageTrace Behavior [ RunTime:0.001692s ]
+[ 2012-06-06T08:38:14+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ view_end ] --END-- [ RunTime:0.001941s ]
+[ 2012-06-06T08:38:28+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=11 | INFO: Tag[ app_begin ] --START--
+[ 2012-06-06T08:38:28+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=11 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002427s ]
+[ 2012-06-06T08:38:28+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=11 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002891s ]
+[ 2012-06-06T08:38:28+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=11 | SQL: SHOW COLUMNS FROM `myf_archives` [ RunTime:0.009653s ]
+[ 2012-06-06T08:38:28+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=11 | SQL: SELECT * FROM `myf_archives` WHERE ( `id` = '11' ) LIMIT 1   [ RunTime:0.007054s ]
+[ 2012-06-06T08:38:28+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=11 | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.011583s ]
+[ 2012-06-06T08:38:28+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=11 | SQL: SELECT `id`,`topid`,`sortrank`,`typename`,`typedir`,`arcnamerule`,`listnamerule`,`classname`,`methodname`,`keywords`,`seotitle`,`description`,`typepro` FROM `myf_arctype` ORDER BY sortrank asc  [ RunTime:0.003822s ]
+[ 2012-06-06T08:38:28+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=11 | INFO: Tag[ view_template ] --START--
+[ 2012-06-06T08:38:28+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=11 | INFO: Run LocationTemplate Behavior [ RunTime:0.001602s ]
+[ 2012-06-06T08:38:28+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=11 | INFO: Tag[ view_template ] --END-- [ RunTime:0.001876s ]
+[ 2012-06-06T08:38:28+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=11 | INFO: Tag[ view_parse ] --START--
+[ 2012-06-06T08:38:28+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=11 | INFO: Run ParseTemplate Behavior [ RunTime:0.099404s ]
+[ 2012-06-06T08:38:28+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=11 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.099858s ]
+[ 2012-06-06T08:38:28+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=11 | INFO: Tag[ view_filter ] --START--
+[ 2012-06-06T08:38:28+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=11 | INFO: Run ContentReplace Behavior [ RunTime:0.001548s ]
+[ 2012-06-06T08:38:28+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=11 | INFO: Run TokenBuild Behavior [ RunTime:0.003225s ]
+[ 2012-06-06T08:38:28+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=11 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001011s ]
+[ 2012-06-06T08:38:28+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=11 | INFO: Run ShowRuntime Behavior [ RunTime:0.001747s ]
+[ 2012-06-06T08:38:28+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=11 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.009364s ]
+[ 2012-06-06T08:38:28+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=11 | NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\AppServ\www\myfcms\admin\Lib\Action\ArchivesAction.class.php:355) View.class.php 第 120 行.
+[ 2012-06-06T08:38:28+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=11 | NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\AppServ\www\myfcms\admin\Lib\Action\ArchivesAction.class.php:355) View.class.php 第 121 行.
+[ 2012-06-06T08:38:28+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=11 | NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\AppServ\www\myfcms\admin\Lib\Action\ArchivesAction.class.php:355) View.class.php 第 122 行.
+[ 2012-06-06T08:38:28+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=11 | INFO: Tag[ view_end ] --START--
+[ 2012-06-06T08:38:28+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=11 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001857s ]
+[ 2012-06-06T08:38:28+08:00 ] /myfcms/admin/index.php?m=Archives&a=update&id=11 | INFO: Tag[ view_end ] --END-- [ RunTime:0.002167s ]
+[ 2012-06-06T08:38:32+08:00 ] /myfcms/admin/index.php?m=Archives&a=uploadpic | INFO: Tag[ app_begin ] --START--
+[ 2012-06-06T08:38:32+08:00 ] /myfcms/admin/index.php?m=Archives&a=uploadpic | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002156s ]
+[ 2012-06-06T08:38:32+08:00 ] /myfcms/admin/index.php?m=Archives&a=uploadpic | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002524s ]
+[ 2012-06-06T08:38:34+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Tag[ app_begin ] --START--
+[ 2012-06-06T08:38:34+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002405s ]
+[ 2012-06-06T08:38:34+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002999s ]
+[ 2012-06-06T08:38:34+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009203s ]
+[ 2012-06-06T08:38:34+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | SQL: SELECT * FROM `myf_arctype` WHERE ( `id` = '7' ) LIMIT 1   [ RunTime:0.003593s ]
+[ 2012-06-06T08:38:34+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | SQL: SHOW COLUMNS FROM `myf_archives` [ RunTime:0.009653s ]
+[ 2012-06-06T08:38:34+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | SQL: UPDATE `myf_archives` SET `title`='写给大人的一句话 ',`litpic`='20120606083832104.jpg',`flag`='c,p',`keywords`='一句话,大人,写给,写给大人的一句话',`color`='#000000',`source`='',`writer`='',`typeid`='7',`typename`='小学作文',`description`='你想打牌就打牌，你想打人就打人，大人们你们也要关爱一下我们。,写给大人的一句话',`sendtime`='2012-05-26 20:17:11',`click`='4',`body`='<p>　　你想打牌就打牌，你想打人就打人，大人们你们也要关爱一下我们。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /></p>' WHERE id=11 [ RunTime:0.002888s ]
+[ 2012-06-06T08:38:34+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Tag[ view_template ] --START--
+[ 2012-06-06T08:38:34+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Run LocationTemplate Behavior [ RunTime:0.001379s ]
+[ 2012-06-06T08:38:34+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Tag[ view_template ] --END-- [ RunTime:0.001606s ]
+[ 2012-06-06T08:38:34+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Tag[ view_parse ] --START--
+[ 2012-06-06T08:38:34+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Run ParseTemplate Behavior [ RunTime:0.033497s ]
+[ 2012-06-06T08:38:34+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Tag[ view_parse ] --END-- [ RunTime:0.033789s ]
+[ 2012-06-06T08:38:34+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Tag[ view_filter ] --START--
+[ 2012-06-06T08:38:34+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Run ContentReplace Behavior [ RunTime:0.001354s ]
+[ 2012-06-06T08:38:34+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Run TokenBuild Behavior [ RunTime:0.001351s ]
+[ 2012-06-06T08:38:34+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000852s ]
+[ 2012-06-06T08:38:34+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Run ShowRuntime Behavior [ RunTime:0.004324s ]
+[ 2012-06-06T08:38:34+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Tag[ view_filter ] --END-- [ RunTime:0.008547s ]
+[ 2012-06-06T08:38:34+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\AppServ\www\myfcms\admin\Lib\Action\ArchivesAction.class.php:355) View.class.php 第 120 行.
+[ 2012-06-06T08:38:34+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\AppServ\www\myfcms\admin\Lib\Action\ArchivesAction.class.php:355) View.class.php 第 121 行.
+[ 2012-06-06T08:38:34+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\AppServ\www\myfcms\admin\Lib\Action\ArchivesAction.class.php:355) View.class.php 第 122 行.
+[ 2012-06-06T08:38:34+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Tag[ view_end ] --START--
+[ 2012-06-06T08:38:34+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Run ShowPageTrace Behavior [ RunTime:0.002059s ]
+[ 2012-06-06T08:38:34+08:00 ] /myfcms/admin/index.php?m=Archives&a=update_handler | INFO: Tag[ view_end ] --END-- [ RunTime:0.002298s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ app_begin ] --START--
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002207s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002565s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | NOTIC: [8] Undefined index:  p ArchivesAction.class.php 第 22 行.
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | NOTIC: [8] Undefined index:  keyword ArchivesAction.class.php 第 28 行.
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | NOTIC: [8] Undefined index:  typeid ArchivesAction.class.php 第 33 行.
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_archives` [ RunTime:0.010746s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT COUNT(*) AS tp_count FROM `myf_archives` WHERE 1=1 LIMIT 1   [ RunTime:0.004320s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | NOTIC: [2] Missing argument 5 for Page::__construct(), called in D:\AppServ\www\myfcms\admin\Lib\Action\ArchivesAction.class.php on line 48 and defined Page.class.php 第 48 行.
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_archives` [ RunTime:0.010397s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT `id`,`typeid`,`typename`,`flag`,`click`,`title`,`color`,`writer`,`source`,`litpic`,`keywords`,`description`,`sendtime`,`goodpost`,`badpost`,`adminid`,`adminname`,`ishtml` FROM `myf_archives` WHERE 1=1 ORDER BY id desc LIMIT 0,20   [ RunTime:0.002153s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009575s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='11' LIMIT 1   [ RunTime:0.005904s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009717s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.005927s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.011054s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.005010s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.011173s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003313s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.014658s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.005568s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.010301s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003884s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009175s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003586s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009447s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.006233s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009639s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003719s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009132s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.002953s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009737s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.005737s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.011177s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003609s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009365s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.004411s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009166s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.004353s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009617s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.006038s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.010656s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.007812s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.011162s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.004839s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009570s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003423s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009167s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003628s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.032213s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_arctype` WHERE 1=1 AND id='7' LIMIT 1   [ RunTime:0.003371s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_sys` [ RunTime:0.007997s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT * FROM `myf_sys` WHERE id<3  [ RunTime:0.003325s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SHOW COLUMNS FROM `myf_arctype` [ RunTime:0.009942s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | SQL: SELECT `id`,`topid`,`sortrank`,`typename`,`typedir`,`arcnamerule`,`listnamerule`,`classname`,`methodname`,`keywords`,`seotitle`,`description`,`typepro` FROM `myf_arctype` ORDER BY sortrank asc  [ RunTime:0.004594s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ view_template ] --START--
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Run LocationTemplate Behavior [ RunTime:0.001550s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ view_template ] --END-- [ RunTime:0.001794s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ view_parse ] --START--
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Run ParseTemplate Behavior [ RunTime:0.060795s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ view_parse ] --END-- [ RunTime:0.061134s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ view_filter ] --START--
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Run ContentReplace Behavior [ RunTime:0.002026s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Run TokenBuild Behavior [ RunTime:0.002875s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001288s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Run ShowRuntime Behavior [ RunTime:0.001883s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ view_filter ] --END-- [ RunTime:0.008800s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\AppServ\www\myfcms\admin\Lib\Action\ArchivesAction.class.php:355) View.class.php 第 120 行.
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\AppServ\www\myfcms\admin\Lib\Action\ArchivesAction.class.php:355) View.class.php 第 121 行.
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\AppServ\www\myfcms\admin\Lib\Action\ArchivesAction.class.php:355) View.class.php 第 122 行.
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ view_end ] --START--
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Run ShowPageTrace Behavior [ RunTime:0.004193s ]
+[ 2012-06-06T08:38:35+08:00 ] /myfcms/admin/index.php?m=Archives&a=main | INFO: Tag[ view_end ] --END-- [ RunTime:0.004630s ]
+[ 2012-06-06T08:40:23+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Tag[ app_begin ] --START--
+[ 2012-06-06T08:40:23+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Run ReadHtmlCache Behavior [ RunTime:0.004895s ]
+[ 2012-06-06T08:40:23+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Tag[ app_begin ] --END-- [ RunTime:0.005318s ]
+[ 2012-06-06T08:40:23+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | SQL: SHOW COLUMNS FROM `myf_moban` [ RunTime:0.058991s ]
+[ 2012-06-06T08:40:23+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | SQL: SELECT * FROM `myf_moban` WHERE theme='default'  [ RunTime:0.022200s ]
+[ 2012-06-06T08:40:23+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Tag[ view_template ] --START--
+[ 2012-06-06T08:40:23+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Run LocationTemplate Behavior [ RunTime:0.006994s ]
+[ 2012-06-06T08:40:23+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Tag[ view_template ] --END-- [ RunTime:0.007254s ]
+[ 2012-06-06T08:40:23+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Tag[ view_parse ] --START--
+[ 2012-06-06T08:40:23+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Run ParseTemplate Behavior [ RunTime:0.068073s ]
+[ 2012-06-06T08:40:23+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Tag[ view_parse ] --END-- [ RunTime:0.068370s ]
+[ 2012-06-06T08:40:23+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Tag[ view_filter ] --START--
+[ 2012-06-06T08:40:23+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Run ContentReplace Behavior [ RunTime:0.003828s ]
+[ 2012-06-06T08:40:23+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Run TokenBuild Behavior [ RunTime:0.004124s ]
+[ 2012-06-06T08:40:23+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Run WriteHtmlCache Behavior [ RunTime:0.005436s ]
+[ 2012-06-06T08:40:23+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Run ShowRuntime Behavior [ RunTime:0.004074s ]
+[ 2012-06-06T08:40:23+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Tag[ view_filter ] --END-- [ RunTime:0.018182s ]
+[ 2012-06-06T08:40:23+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Tag[ view_end ] --START--
+[ 2012-06-06T08:40:23+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Run ShowPageTrace Behavior [ RunTime:0.004040s ]
+[ 2012-06-06T08:40:23+08:00 ] /myfcms/admin/index.php?m=Moban&a=main&theme=default | INFO: Tag[ view_end ] --END-- [ RunTime:0.004293s ]
+[ 2012-06-06T08:40:27+08:00 ] /myfcms/admin/index.php?m=Moban&a=update&id=1 | INFO: Tag[ app_begin ] --START--
+[ 2012-06-06T08:40:27+08:00 ] /myfcms/admin/index.php?m=Moban&a=update&id=1 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001927s ]
+[ 2012-06-06T08:40:27+08:00 ] /myfcms/admin/index.php?m=Moban&a=update&id=1 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002272s ]
+[ 2012-06-06T08:40:27+08:00 ] /myfcms/admin/index.php?m=Moban&a=update&id=1 | NOTIC: [8] Undefined index:  theme MobanAction.class.php 第 80 行.
+[ 2012-06-06T08:40:27+08:00 ] /myfcms/admin/index.php?m=Moban&a=update&id=1 | SQL: SHOW COLUMNS FROM `myf_moban` [ RunTime:0.011122s ]
+[ 2012-06-06T08:40:27+08:00 ] /myfcms/admin/index.php?m=Moban&a=update&id=1 | SQL: SELECT * FROM `myf_moban` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.001563s ]
+[ 2012-06-06T08:40:27+08:00 ] /myfcms/admin/index.php?m=Moban&a=update&id=1 | INFO: Tag[ view_template ] --START--
+[ 2012-06-06T08:40:27+08:00 ] /myfcms/admin/index.php?m=Moban&a=update&id=1 | INFO: Run LocationTemplate Behavior [ RunTime:0.004645s ]
+[ 2012-06-06T08:40:27+08:00 ] /myfcms/admin/index.php?m=Moban&a=update&id=1 | INFO: Tag[ view_template ] --END-- [ RunTime:0.004910s ]
+[ 2012-06-06T08:40:27+08:00 ] /myfcms/admin/index.php?m=Moban&a=update&id=1 | INFO: Tag[ view_parse ] --START--
+[ 2012-06-06T08:40:27+08:00 ] /myfcms/admin/index.php?m=Moban&a=update&id=1 | INFO: Run ParseTemplate Behavior [ RunTime:0.075445s ]
+[ 2012-06-06T08:40:27+08:00 ] /myfcms/admin/index.php?m=Moban&a=update&id=1 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.075779s ]
+[ 2012-06-06T08:40:27+08:00 ] /myfcms/admin/index.php?m=Moban&a=update&id=1 | INFO: Tag[ view_filter ] --START--
+[ 2012-06-06T08:40:27+08:00 ] /myfcms/admin/index.php?m=Moban&a=update&id=1 | INFO: Run ContentReplace Behavior [ RunTime:0.001594s ]
+[ 2012-06-06T08:40:27+08:00 ] /myfcms/admin/index.php?m=Moban&a=update&id=1 | INFO: Run TokenBuild Behavior [ RunTime:0.001825s ]
+[ 2012-06-06T08:40:27+08:00 ] /myfcms/admin/index.php?m=Moban&a=update&id=1 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001477s ]
+[ 2012-06-06T08:40:27+08:00 ] /myfcms/admin/index.php?m=Moban&a=update&id=1 | INFO: Run ShowRuntime Behavior [ RunTime:0.001821s ]
+[ 2012-06-06T08:40:27+08:00 ] /myfcms/admin/index.php?m=Moban&a=update&id=1 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007524s ]
+[ 2012-06-06T08:40:27+08:00 ] /myfcms/admin/index.php?m=Moban&a=update&id=1 | INFO: Tag[ view_end ] --START--
+[ 2012-06-06T08:40:27+08:00 ] /myfcms/admin/index.php?m=Moban&a=update&id=1 | INFO: Run ShowPageTrace Behavior [ RunTime:0.004811s ]
+[ 2012-06-06T08:40:27+08:00 ] /myfcms/admin/index.php?m=Moban&a=update&id=1 | INFO: Tag[ view_end ] --END-- [ RunTime:0.005154s ]

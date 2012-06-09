@@ -1,0 +1,93 @@
+body{
+	padding:2px;
+	font-size:12px;
+	padding-top:0
+}
+td, th, div {
+word-break: break-all;
+word-wrap: break-word;
+}
+.red{
+	color:red;
+}
+.main{
+	border:1px solid #dadada
+}
+.top{
+	height:25px;
+	background:url(../images/list-top-bg.gif) repeat-x;
+	border-bottom:1px solid #dadada;
+}
+.top .position{
+	line-height:25px;
+	padding-left:20px;
+}
+.top .position a{
+	color:#8DCE0F;
+	font-weight:bold;
+	text-decoration:none;
+}
+.top .position span.split{
+	padding:0 5px;
+}
+.bline{
+	border-bottom: 1px dotted #BCBCBC;
+	height: 28px;
+	background-color: white;
+}
+.bline2{
+	border-bottom: 1px solid #BCBCBC;
+}
+.bline1{
+	border-top: 1px solid #BCBCBC;
+}
+.bline3{
+	border-top: 1px solid #BCBCBC;
+	padding-left: 100px;
+	padding-top:10px;
+	padding-bottom:8px
+}
+.btn{
+	width:80px;
+	height:30px;
+}
+.uploadpic{
+	position: absolute;
+	top:457px;
+	left:357px;
+	filter:alpha(opacity=0);
+	 -moz-opacity:0;
+	 -khtml-opacity: 0;
+	 opacity: 0;
+}
+#file{
+	width:60px;
+	height:30px;
+	margin:0;
+	padding:0;
+}
+#typeid{
+	padding:3px
+}
+input[type="text"], input[type="password"] {
+border-width: 1px;
+border-style: solid;
+border-color: #707070 #CECECE #CECECE #707070;
+padding: 2px 4px;
+height: 18px;
+line-height: 18px;
+vertical-align: middle;
+}
+img{
+	border:0
+}
+
+input.html_color{width:18px;height:18px;padding:0;border:none;background:#000 url(../images/color_picker.png) no-repeat;font-size:0;line-height:0;vertical-align:middle;cursor:pointer;} 
+/* 颜色选择器 
+------------------------------ */ 
+.html_colorpane{display:none;position:absolute;z-index:999;overflow: hidden;margin:0} 
+.html_colorpane h5{position:relative;width:220px;padding:0 5px;border:1px solid #000;border-bottom:none;background:#fff;color:#999;font:normal 12px/20px "\5B8B\4F53"; height: 20px;margin:0;overflow: hidden;} 
+.html_colorpane h5 span{cursor:pointer;} 
+.html_colorpane h5 em{position:absolute;top:0;right:5px;font:normal 16px/20px Tahoma;cursor:pointer;} 
+.html_colorpane table{border-collapse:collapse;table-layout:fixed;empty-cells:show;} 
+.html_colorpane td{position:static;width:10px;height:10px;padding:0;border:1px solid #000;font-size:0;line-height:0;cursor:pointer;}
