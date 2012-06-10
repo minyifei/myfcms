@@ -464,6 +464,95 @@ class MyfDao{
 		$m_html = M("co_html");
 		return $m_html->find($id);
 	}
+	
+	/**
+	 * 添加会员
+	 */
+	public function add_member($data){
+		$m_member = M("member");
+		return $m_member->add($data);
+	}
+	
+	/**
+	 * 更新会员资料
+	 */
+	public function update_member($id,$data){
+		$m_member = M("member");
+		return $m_member->where("id=".$id)->save($data);
+	}
+	
+	/**
+	 * 删除会员
+	 */
+	public function delete_member($id){
+		$m_member = M("member");
+		return $m_member->delete($id);
+	}
+	
+	/**
+	 * 分页获取会员
+	 */
+	public function find_member_by_page($page,$pageCount=20,$filter=""){
+		$m_member = M("member");
+		$start = ($page-1)*$pageCount;
+		return $m_member->where($filter)->order("id desc")->limit($start.",".$pageCount)->select();
+	}
+	
+	/**
+	 * 获取会员总数
+	 */
+	public function count_member($filter=""){
+		$m_member = M("member");
+		return $m_member->where($filter)->count();
+	}
+	
+	public function find_is_member_used($loginid){
+		$m_member = M("member");
+		$count = $m_member->where("loginid='".$loginid."'")->count();
+		if($count>0){
+			return true;
+		}else{
+			return false;
+		}
+	}
+	
+	public function find_member_by_id($id){
+		$m_member = M("member");
+		return $m_member->find($id);
+	}
+	
+	/**
+	 * 分页获取评论信息
+	 */
+	public function find_comment_by_page($page,$pageCount=20,$filter=""){
+		$m_comment = D("Comment");
+		$start = ($page-1)*$pageCount;
+		return $m_comment->relation(true)->where($filter)->order("id desc")->limit($start.",".$pageCount)->select();
+	}
+	
+	/**
+	 * 获取评论总数
+	 */
+	public function count_comment($filter=""){
+		$m_comment = M("comment");
+		return $m_comment->where($filter)->count();
+	}
+	
+	public function delete_comment($id){
+		$m_comment = M("comment");
+		return $m_comment->delete($id);
+	}
+	
+	public function delete_comments($ids){
+		$m_comment = M("comment");
+		return $m_comment->where("id in(".$ids.")")->delete();
+	}
+	
+	public function change_comment_state($id,$state=1){
+		$m_comment = M("comment");
+		$d = array("state"=>$state);
+		return $m_comment->where("id=".$id)->save($d);
+	}
 }
 
 ?>

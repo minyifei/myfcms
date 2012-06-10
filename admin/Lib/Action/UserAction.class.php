@@ -114,7 +114,7 @@ class UserAction extends MyfAction{
 			if($rowid==-1){
 				$this->error("初始管理员不能被删除");
 			}else{
-				$this->error("用户修改失败");
+				$this->error("用户删除失败");
 			}
 			
 		}

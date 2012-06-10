@@ -648,6 +648,72 @@ class MyfService{
 		$dao = new MyfDao();
 		return $dao->find_cohtml_filter($filter);
 	}
+	
+	public function add_member($data){
+		$dao = new MyfDao();
+		$data["createtime"] = date("Y-m:d H:i:s");
+		return $dao->add_member($data);
+	}
+	
+	public function update_member($id,$data){
+		$dao = new MyfDao();
+		return $dao->update_member($id, $data);
+	}
+	
+	public function delete_member($id){
+		$dao = new MyfDao();
+		return $dao->delete_member($id);
+	}
+	
+	public function find_member_by_page($page,$pageCount=20,$filter=""){
+		$dao = new MyfDao();
+		$datas = $dao->find_member_by_page($page,$pageCount,$filter);
+		foreach ($datas as $key => $value) {
+			$face = $value["face"];
+			$datas[$key]["face"] = "__APP__/uploads/Member/".$face.".jpg";
+		}
+		return $datas;
+	}
+	
+	public function find_member_by_id($id){
+		$dao = new MyfDao();
+		return $dao->find_member_by_id($id);
+	}
+	
+	public function find_is_member_used($loginid){
+		$dao = new MyfDao();
+		return $dao->find_is_member_used($loginid);
+	}
+	
+	public function count_member($filter=""){
+		$dao = new MyfDao();
+		return $dao->count_member($filter);
+	}
+	
+	public function find_comment_by_page($page,$pageCount=20,$filter=""){
+		$dao = new MyfDao();
+		return $dao->find_comment_by_page($page,$pageCount,$filter);
+	}
+	
+	public function count_comment($filter=""){
+		$dao = new MyfDao();
+		return $dao->count_comment($filter);
+	}
+	
+	public function delete_comment($id){
+		$dao = new MyfDao();
+		return $dao->delete_comment($id);
+	}
+	
+	public function delete_comments($ids){
+		$dao = new MyfDao();
+		return $dao->delete_comments($ids);
+	}
+	
+	public function change_comment_state($id,$state=1){
+		$dao = new MyfDao();
+		return $dao->change_comment_state($id,$state);
+	}
 }
 
 ?>
