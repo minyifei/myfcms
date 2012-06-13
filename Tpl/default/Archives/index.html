@@ -12,6 +12,75 @@
 		<link rel="shortcut icon" href="/favicon.ico" />
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 		<link type="text/css" rel="stylesheet" href="__MYFCMSPUBLIC__/css/main.css" />
+		<script type="text/javascript" src="__MYFCMSPUBLIC__/js/jquery.js"></script>
+		<script type="text/javascript">
+			$("document").ready(function(){
+				$("#btnGoodPost").click(function(){
+					var id = $("#txtId").val();
+					$.ajax({
+						url:"__APP__/index.php?m=Archives&a=myfcms_set_archive_info",
+						data:{type:"good",id:id},
+						dataType:"json",
+						success:function(res){
+							if(res["msg"]=="success"){
+								getArchiveInfo();
+							}
+						}
+					})
+				})
+				
+				$("#btnBadPost").click(function(){
+					var id = $("#txtId").val();
+					$.ajax({
+						url:"__APP__/index.php?m=Archives&a=myfcms_set_archive_info",
+						data:{type:"bad",id:id},
+						dataType:"json",
+						success:function(res){
+							if(res["msg"]=="success"){
+								getArchiveInfo();
+							}
+						}
+					})
+				})
+				
+				$("#btnComment").click(function(){
+					var id = $("#txtId").val();
+					var username =$("#txtUsername").val();
+					var email = $("#txtEmail").val();
+					var code = $("#txtCode").val();
+					var url = $("#txtUrl").val();
+					var comment = $("#txtComment").val();
+					$.ajax({
+						url:"__APP__/index.php?m=Archives&a=myfcms_archive_comment",
+						dataType:"json",
+						data:{id:id,username:username,email:email,code:code,url:url,comment:comment},
+						success:function(res){
+							alert(res["msg"]);
+						}
+					})
+				})
+				
+				getArchiveInfo();
+			})
+			
+			function getArchiveInfo(){
+				var id = $("#txtId").val();
+				$.ajax({
+					url:"__APP__/index.php?m=Archives&a=myfcms_get_archive_info",
+					data:{id:id},
+					dataType:"json",
+					success:function(res){
+						var goodpost = res["goodpost"];
+						var badpost = res["badpost"];
+						var click = res["click"];
+						$("#btnGoodPost").html('顶一下('+goodpost+')');
+						$("#btnBadPost").html('踩一下('+badpost+')');
+						$("#sClick").html(click+"次");
+					}
+				})
+			}
+			
+		</script>
 	</head>
 	<body>
 		<include file="./Tpl/default/Public/top.html" />
@@ -31,17 +100,49 @@
 					</div>
 					<p class="info">
 						时间：<small>{$myfcms.sendtime}</small>
-						点击：<small>{$myfcms.click}次</small>
+						点击：<small id="sClick">{$myfcms.click}次</small>
 						作者：<em>{$myfcms.writer}</em>
 						来源：<em>{$myfcms.source}</em>
+						<script type="text/javascript" src="__APP__/index.php?m=Archives&a=myfcms_set_archive_info&type=click&id={$myfcms.id}"></script>
 					</p>
 					<div class="arcbody">
 						{$myfcms.body}
 					</div>
+					<p>
+						<a href="javascript:void()" id="btnGoodPost">
+							顶一下({$myfcms.goodpost})
+						</a>
+						<a href="javascript:void()" id="btnBadPost">
+							踩一下({$myfcms.badpost})
+						</a>
+					</p>
 					<p class="arcnav">
 						上一篇：{$myfcms.pre}<br/>
 						下一篇：{$myfcms.next}
 					</p>
+					<div>
+						<volist name="myfcms.Comments" id="vo">
+							<img src="__APP__/admin/Uploads/Member/{$vo.face}.jpg" style="width:50px;height:50px;" />
+							{$vo.id}-<br/>
+							{$vo.username}-<br/>
+							{$vo.body}--{$vo.posttime}	<br/><br/>						
+						</volist>
+						<form>
+							<input type="hidden" id="txtId" name="id" value="{$myfcms.id}" />
+							<div class="c-txt-box">
+									*昵称： <input type="text" id="txtUsername" name="username" class="c-txt-name" />&nbsp;
+									*邮箱： <input type="text" id="txtEmail" name="email" class="c-txt" />&nbsp;
+									网址： <input type="text" id="txtUrl" name="url" class="c-txt" />
+									*验证码： <input type="text" id="txtCode" name="code" class="c-txt-code" />&nbsp;<img title="看不清楚，点击换一张" id="imgverify"onclick="this.src=this.src+'&1'" src="http://localhost/myfcms/index.php?m=Archives&a=myfcms_verify" class="verify" />
+							</div>
+							<div>
+								内容 ：<textarea name="comment" id="txtComment" style="width:300px;height:50px;" class="post"></textarea>
+							</div>
+							<div>
+								<input type="button" id="btnComment" value="提交" />
+							</div>
+						</form>
+					</div>
 				</div>
 			</div>
 			<div class="list-right">

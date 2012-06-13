@@ -87,6 +87,8 @@ class InstallAction extends Action {
 				DROP TABLE IF EXISTS `myf_sys`;
 				DROP TABLE IF EXISTS `myf_co_html`;
 				DROP TABLE IF EXISTS `myf_co_node`;
+				DROP TABLE IF EXISTS `myf_comment`;
+				DROP TABLE IF EXISTS `myf_member`;
 				
 				CREATE TABLE `myf_admin` (
 				  `id` int(11) NOT NULL auto_increment,
@@ -121,9 +123,9 @@ class InstallAction extends Action {
 				  `adminname` varchar(30) default NULL COMMENT '添加文章管理员笔名',
 				  `body` text COMMENT '文章内容',
 				  `ishtml` tinyint(4) NOT NULL default '0' COMMENT '是否生成html',
+				  `commentcount` int(11) NOT NULL default '0' COMMENT '评论数',
 				  PRIMARY KEY  (`id`)
-				) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='文章表';
-				
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='文章表';				
 				
 				CREATE TABLE `myf_arctype` (
 				  `id` int(11) NOT NULL auto_increment,
@@ -223,6 +225,35 @@ class InstallAction extends Action {
 				  PRIMARY KEY  (`id`),
 				  UNIQUE KEY `nid` (`nid`,`url`)
 				) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='采集内容表';
+				
+				CREATE TABLE `myf_member` (
+				  `id` int(11) NOT NULL auto_increment,
+				  `loginid` varchar(30) NOT NULL COMMENT '用户登录名',
+				  `pwd` varchar(32) NOT NULL,
+				  `username` varchar(50) default NULL COMMENT '用户名',
+				  `email` varchar(50) default NULL,
+				  `face` varchar(150) default NULL,
+				  `createtime` datetime default NULL COMMENT '创建时间',
+				  PRIMARY KEY  (`id`),
+				  UNIQUE KEY `loginid` (`loginid`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+				
+				CREATE TABLE `myf_comment` (
+				  `id` int(11) NOT NULL auto_increment,
+				  `arcid` int(11) NOT NULL COMMENT '对应文章编号',
+				  `arctitle` varchar(200) default NULL COMMENT '文章标题 ',
+				  `username` varchar(100) NOT NULL default '匿名' COMMENT '用户名',
+				  `memberid` int(11) default '0' COMMENT '用户编号',
+				  `ip` varchar(100) default NULL COMMENT '评论者ip',
+				  `posttime` datetime default NULL COMMENT '评论时间',
+				  `body` varchar(500) default NULL COMMENT '评论内容',
+				  `state` int(11) default NULL COMMENT '评论状态，0-未通过，1-通过',
+				  `agent` varchar(300) default NULL COMMENT '用户客户端信息',
+				  `url` varchar(200) default NULL COMMENT '发布者网站',
+				  `email` varchar(100) default NULL,
+				  `face` int(11) NOT NULL default '1',
+				  PRIMARY KEY  (`id`)
+				) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 				
 				INSERT INTO `myf_sys` VALUES (1, 'cfg_basehost', '".$basehost."', '站点根目录', 'string');
 				INSERT INTO `myf_sys` VALUES (2, 'cfg_indexurl', '".$indexurl."', '网页主页链接', 'string');

@@ -525,9 +525,9 @@ class MyfDao{
 	 * 分页获取评论信息
 	 */
 	public function find_comment_by_page($page,$pageCount=20,$filter=""){
-		$m_comment = D("Comment");
+		$m_comment = M("Comment");
 		$start = ($page-1)*$pageCount;
-		return $m_comment->relation(true)->where($filter)->order("id desc")->limit($start.",".$pageCount)->select();
+		return $m_comment->where($filter)->order("id desc")->limit($start.",".$pageCount)->select();
 	}
 	
 	/**

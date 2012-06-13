@@ -265,7 +265,7 @@ class BaseAction extends Action {
 		
 		$this->assign("topchannelid",$topChannelId);
 		
-		$m_arc->where('id='.$id)->setInc('click',1); 
+		// $m_arc->where('id='.$id)->setInc('click',1); 
 		
 		//当前模版
 		$moban = $_COOKIE["think_template"];
@@ -275,6 +275,9 @@ class BaseAction extends Action {
 			$arc["moban"] = $moban;
 		}
 		
+		$m_comment = M("comment");
+		$comments = $m_comment->where("arcid=".$id)->order("id asc")->select();
+		$arc["Comments"] = $comments;
 		$this->assign("myfcms",$arc);
 		
 		//如果配置则生成html

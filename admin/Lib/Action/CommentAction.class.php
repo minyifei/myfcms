@@ -18,9 +18,15 @@ class CommentAction extends MyfAction{
 			$p = 1;
 		}
 		$arctitle = $_REQUEST["arctitle"];
-		$filter ="";
+		$filter ="1=1";
 		if(!empty($arctitle)){
-			$filter = "arctitle like '%".$arctitle."%'";
+			$filter .= " and arctitle like '%".$arctitle."%'";
+			$this->assign("arctitle",$arctitle);
+		}
+		$username = $_REQUEST["username"];
+		if(!empty($username)){
+			$filter .= " and username like '%".$username."%'";
+			$this->assign("username",$username);
 		}
 		$comments = $service->find_comment_by_page($p,$pageCount,$filter);
 		$this->assign("comments",$comments);

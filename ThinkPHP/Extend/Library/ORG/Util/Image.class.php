@@ -320,6 +320,7 @@ class Image {
         import('ORG.Util.String');
         $randval = String::randString($length, $mode);
         $_SESSION[$verifyName] = md5($randval);
+		$_SESSION["myfcms_code"] = $randval;
         $width = ($length * 10 + 10) > $width ? $length * 10 + 10 : $width;
         if ($type != 'gif' && function_exists('imagecreatetruecolor')) {
             $im = imagecreatetruecolor($width, $height);

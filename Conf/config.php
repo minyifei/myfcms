@@ -16,6 +16,7 @@
 		),
 		'MYFCMS_THEMES'=>array("default"),//配送默认使用那几个模版，可用参数:default,3g,touch
 		'AUTO_THEME'=>true,
+		"MYFCMS_COMMENT_STATE"=>1,//默认是评论不审核，1-审核通过，0-未审核
     );
     return array_merge($config, $array);
 ?>
