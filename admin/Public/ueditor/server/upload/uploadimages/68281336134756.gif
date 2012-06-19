@@ -1,3 +1,0 @@
-<br />
-<b>Warning</b>:  readfile(http://static.cnblogs.com/images/icon_sina.gif) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- in <b>D:\AppServ\www\myfcms\admin\Public\ueditor\server\submit\php\getRemoteImage.php</b> on line <b>45</b><br />
