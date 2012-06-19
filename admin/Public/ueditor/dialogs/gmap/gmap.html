@@ -13,37 +13,26 @@
             width:540px;
             height: 350px;
             overflow: hidden;
-            margin:0px;padding:0px;
-        }
-        .content{
-            padding: 9px 0px 0px 15px;
-            height:100%;
-        }
-        .content table{padding:0px;margin:0px;width: 100%}
-        .content table tr{padding:0px;margin:0px; list-style: none;height: 30px; line-height: 30px;}
-        #city,
-        #address
-        {height:21px;background: #FFF;border:1px solid #d7d7d7;padding: 0px; margin: 0px; line-height: 21px;}
-        #city{width:90px}
-        #address{width:220px}
+            margin:0;padding:0;
 
-         a.doSearch{display:block;text-align:center;line-height:24px; text-decoration: none;height:24px;width:95px;border: 0px;margin:0px;padding:0px;background:url(../../themes/default/images/icons-all.gif)  no-repeat;}
+        }
+        .content{padding: 9px 0 0 15px;height:100%;}
+        .content table tr{height: 30px; line-height: 30px;}
+         #address{width:220px;height:21px;background: #FFF;border:1px solid #d7d7d7; line-height: 21px;}
+         a.doSearch{display:block;text-align:center;line-height:24px; text-decoration: none;height:24px;width:95px;border: 0;background:url(../../themes/default/images/icons-all.gif)  no-repeat;}
          a.doSearch:hover{background-position: 0 -30px;}
     </style>
 </head>
 <body>
 <div class="content">
-<table>
-    <tr>
-        <!--<td><label for="city">城市:</label></td>-->
-        <!--<td><input id="city" type="text" value="北京市" /></td>-->
-        <td><label for="address">地址:</label></td>
-        <td><input id="address" type="text" value="北京市" /></td>
-        <td><a href="javascript:doSearch()" class="doSearch">搜索</a></td>
-    </tr>
-</table>
-
-<div id="container" style="width: 520px; height: 340px; border: 1px solid gray;"></div>
+    <table>
+        <tr>
+            <td><label for="address">地址:</label></td>
+            <td><input id="address" type="text" value="北京市" /></td>
+            <td><a href="javascript:doSearch()" class="doSearch">搜索</a></td>
+        </tr>
+    </table>
+    <div id="container" style="width: 520px; height: 340px; border: 1px solid gray;"></div>
 </div>
 <script type="text/javascript">
     var map = new google.maps.Map(document.getElementById('container'), {

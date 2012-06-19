@@ -261,8 +261,15 @@ var video = {};
      * @param url
      */
     function createPreviewVideo(url){
+
         if ( !url )return;
-        if(!endWith(url,[".swf",".flv",".wmv"])){
+		var matches = url.match(/youtu.be\/(\w+)$/) || url.match(/youtube\.com\/watch\?v=(\w+)/) || url.match(/youtube.com\/v\/(\w+)/),
+            youku = url.match(/youku\.com\/v_show\/id_(\w+)/);
+		if (matches){
+			url = "https://www.youtube.com/v/" + matches[1] + "?version=3&feature=player_embedded";
+		}else if(youku){
+            url = "http://player.youku.com/player.php/sid/"+youku[1]+"/v.swf"
+        }else if(!endWith(url,[".swf",".flv",".wmv"])){
             $G("preview").innerHTML = "您输入的视频地址有误，请检查后确认！";
             return;
         }
@@ -303,7 +310,7 @@ var video = {};
         var keyword = keywordInput.value,
                 type = $G("videoType").value,
             str="";
-        ajax.request(editor.options.UEDITOR_HOME_URL +"server/submit/php/getMovie.php",{
+        ajax.request(editor.options.getMovieUrl,{
             searchKey:keyword,
             videoType:type,
             onsuccess:function(xhr){

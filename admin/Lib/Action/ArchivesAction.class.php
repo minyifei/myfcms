@@ -131,6 +131,9 @@ class ArchivesAction extends MyfAction {
 		$data["sendtime"] = $sendtime;
 		$data["click"] = $_POST["click"];
 		$body = $_POST["editorValue"];
+		$data["postgood"] = rand(1,50);
+		$data["badgood"] = 0;
+		$data["commentCount"] = 0;
 		$data["body"] = get_magic_quotes_gpc()?$body:addslashes($body);
 		$archivesId = $service->add_archives($data);
 		if($archivesId>0){
@@ -149,6 +152,7 @@ class ArchivesAction extends MyfAction {
 		$service = new MyfService();
 		$archive = $service->find_archives_by_id($id);
 		$flag = $archive["flag"];
+		$archive["body"] = stripcslashes($archive["body"]);
 		$this->assign("arc",$archive);
 		if($flag){
 			$flags = explode(",",$flag);

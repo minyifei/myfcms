@@ -183,12 +183,17 @@ class TagLibMyfcms extends TagLib {
 		$typeid = $tag["typeid"];
 		$parsestr = '<?php ';
 		if(isset($typeid)){
-			$parsestr .= ' $m_arctype = M("arctype");$child = $m_arctype->where("topid='.$typeid.'")->select();$typeids='.$typeid.';';
+			$parsestr .='$typeids='.$typeid.';';
+			$parsestr .= ' $m_arctype = M("arctype");$child = $m_arctype->where("topid='.$typeid.'")->select();';
 			$parsestr .= 'if($child):';
 			$parsestr .= 'foreach ($child as $kk => $v):';
 			$parsestr .= '$typeids .=",".$v[id];';
 			$parsestr .= 'endforeach;endif;';
 			$where .= ' and typeid in($typeids)';
+		}
+		$typeids = $tag["typeids"];
+		if(isset($typeids)){
+			$where .= " and typeid in(".$typeids.")";
 		}
 		$flag = $tag["flag"];
 		if(isset($flag)){

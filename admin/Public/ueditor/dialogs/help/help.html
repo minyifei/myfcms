@@ -33,7 +33,6 @@
         .head span{width:92px;height:29px;line-height:29px;background:red;display:block;float: left;text-align: center;margin-right: 1px;cursor: pointer; }
         .head span.def{background:url("../../themes/default/images/dialog-title-bg.png") repeat-x;border:1px solid #ccc;}
         .head span.act{background:#FFF;border:1px solid #ccc;border-bottom: 1px solid #FFF}
-
         .content table{width:90%;line-height: 20px}
         .content table thead{font-weight: bold;line-height: 25px;}
     </style>
@@ -48,14 +47,8 @@
         <div id="cont0">
 
 <h1>UEditor</h1>
-<p>版本:1.2.0</p>
+<p>版本:1.2.1</p>
 <p>Ueditor是由百度web前端研发部开发的所见即所得富文本web编辑器，具有轻量，可定制，注重用户体验等特点，开源基于BSD协议，允许自由使用和使用代码</p>
-
-
-
-
-
-
 
         </div>
         <div id="cont1" class="hide">
@@ -125,21 +118,16 @@
     </div>
 </div>
 <script type="text/javascript">
-    function jbind(obj,evt,fun){
-        if(obj.addEventListener){  // firefox,w3c
-            obj.addEventListener(evt,fun,false);
-        }else{// ie
-            obj.attachEvent("on"+evt,function(){fun.apply(obj);});
-        }
-    }
     function getChildrenByClassName (parentClass,childtag){
-        var divs = document.getElementsByTagName("div"),i=0,headChilds,j=0,arr = [];
-        for(;i<divs.length;i++){
+        var divs = document.getElementsByTagName("div"),
+            headChilds,
+            arr = [];
+        for(var i=0;i<divs.length;i++){
             if(divs[i].className == parentClass){
                 headChilds = divs[i].childNodes;
             }
         }
-        for(;j<headChilds.length;j++){
+        for(var j=0;j<headChilds.length;j++){
             if(new RegExp(childtag,"i").test(headChilds[j].tagName)){
                 arr.push(headChilds[j]);
             }

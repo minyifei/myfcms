@@ -296,6 +296,8 @@ if (XRegExp) {
                 r2 = RegExp(this.source, real.replace.call(getNativeFlags(this), "g", ""));
                 // Using `str.slice(match.index)` rather than `match[0]` in case lookahead allowed
                 // matching due to characters outside the match
+                //修复跟jquery冲突的问题
+                if (str) str += '';
                 real.replace.call(str.toString().slice(match.index), r2, function () {
                     for (var i = 1; i < arguments.length - 2; i++) {
                         if (arguments[i] === undefined)

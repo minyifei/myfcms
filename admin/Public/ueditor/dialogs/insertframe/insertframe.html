@@ -5,30 +5,11 @@
     <title>插入框架</title>
     <script type="text/javascript" src="../internal.js"></script>
     <style type="text/css">
-        * {
-            color: #838383
-        }
-
-        body {
-            font-size: 12px;
-            width: 320px;
-            height: 153px;
-            overflow: hidden;
-            margin: 0;
-            padding: 0;
-        }
-        .warp {
-            padding: 20px 0 0 15px;
-            height: 100%;
-            position: relative;
-        }
-        #url {
-            width: 290px;
-            margin-bottom: 2px
-        }
-        table td{
-            padding:5px 0px;
-        }
+        * {color: #838383}
+        body {font-size: 12px;width: 320px;height: 153px;overflow: hidden; margin: 0;padding: 0; }
+        .warp {padding: 20px 0 0 15px;height: 100%;position: relative;}
+        #url {width: 290px; margin-bottom: 2px}
+        table td{padding:5px 0;}
 
     </style>
 </head>
@@ -68,24 +49,21 @@
 
 <script type="text/javascript">
     var iframe = editor._iframe;
-    function g(id){
-        return document.getElementById( id );
-    }
     if(iframe){
-        g("url").value = iframe.getAttribute("src") ? iframe.getAttribute("src") : "";
-        g("width").value = iframe.getAttribute("width") ?  iframe.getAttribute("width") : "";
-        g("height").value = iframe.getAttribute("height") ? iframe.getAttribute("height") : "";
-        g("scroll").checked = (iframe.getAttribute("scrolling") == "yes") ? true : false;
-        g("frameborder").checked = (iframe.getAttribute("frameborder") == "1") ? true : false;
-        g("align").value = iframe.align ? iframe.align : "";
+        $G("url").value = iframe.getAttribute("src")||"";
+        $G("width").value = iframe.getAttribute("width")||iframe.style.width.replace("px","")||"";
+        $G("height").value = iframe.getAttribute("height") || iframe.style.height.replace("px","") ||"";
+        $G("scroll").checked = (iframe.getAttribute("scrolling") == "yes") ? true : false;
+        $G("frameborder").checked = (iframe.getAttribute("frameborder") == "1") ? true : false;
+        $G("align").value = iframe.align ? iframe.align : "";
     }
     function queding(){
-        var  url = g("url").value.replace(/^\s*|\s*$/ig,""),
-                width = g("width").value,
-                height = g("height").value,
-                scroll = g("scroll"),
-                frameborder = g("frameborder"),
-                float = g("align").value,
+        var  url = $G("url").value.replace(/^\s*|\s*$/ig,""),
+                width = $G("width").value,
+                height = $G("height").value,
+                scroll = $G("scroll"),
+                frameborder = $G("frameborder"),
+                float = $G("align").value,
                 newIframe = editor.document.createElement("iframe"),
                 div;
         if(!url){
@@ -100,7 +78,7 @@
         float ? newIframe.setAttribute("align",float) :  newIframe.setAttribute("align","");
         if(iframe){
             iframe.parentNode.insertBefore(newIframe,iframe);
-            parent.baidu.editor.dom.domUtils.remove(iframe);
+            domUtils.remove(iframe);
         }else{
             div = editor.document.createElement("div");
             div.appendChild(newIframe);
@@ -110,22 +88,14 @@
         dialog.close();
     }
     dialog.onok = queding;
-    g("url").onkeydown = function(evt){
+    $G("url").onkeydown = function(evt){
         evt = evt || event;
         if(evt.keyCode == 13){
             queding();
         }
-    }
-    var ipt = g( "url" );
-    var isIE = !!window.ActiveXObject;
-    if ( isIE ) {
-        setTimeout( function () {
-            var r = ipt.createTextRange();
-            r.collapse( false );
-            r.select();
-        } );
-    }
-    ipt.focus();
+    };
+    $focus($G( "url" ));
+
 </script>
 </body>
 </html>

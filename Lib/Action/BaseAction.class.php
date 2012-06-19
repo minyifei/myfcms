@@ -40,6 +40,9 @@ class BaseAction extends Action {
 		}
 		
 		$arctype = $m_arctype->find($id);
+		
+		$arctype["body"] = stripslashes($arctype["body"]);
+		
 		$this->assign("selfid",$id);
 		$this->assign("self",$arctype);
 		

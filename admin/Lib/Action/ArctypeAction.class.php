@@ -101,7 +101,7 @@ class ArctypeAction extends MyfAction {
 		$id = $_REQUEST["id"];
 		$service = new MyfService();
 		$arctype = $service->find_arctype_by_id($id);
-		$arctype["body"] = $arctype["body"];
+		$arctype["body"] = stripcslashes($arctype["body"]);
 		$this->assign("arctype",$arctype);
 		$this->display();
 	}

@@ -5,6 +5,10 @@
  * Time: 下午12:50
  * To change this template use File | Settings | File Templates.
  */
+
+//editor.execCommand("wordimage","word_img");
+
+
 var wordImage = {};
 //(function(){
 var g = baidu.g,
@@ -25,10 +29,11 @@ function addOkListener() {
 			var src = img.getAttribute("word_img");
 			if (!src) continue;
 			for (var j = 0,url; url = imageUrls[j++];) {
-				if (src.indexOf(url.title) != -1) {
-					img.src = editor.options.imagePath + url.url;
-					img.setAttribute("data_ue_src", editor.options.imagePath + url.url);  //同时修改"data_ue_src"属性
-					parent.baidu.editor.dom.domUtils.removeAttributes(img, ["word_img","style","width","height"]);
+				if (src.indexOf(url.original.replace(" ","")) != -1) {
+					img.src = editor.options.wordImagePath + url.url;
+					img.setAttribute("data_ue_src", editor.options.wordImagePath + url.url);  //同时修改"data_ue_src"属性
+					img.setAttribute("title",url.title);
+                    parent.baidu.editor.dom.domUtils.removeAttributes(img, ["word_img","style","width","height"]);
 					editor.fireEvent("selectionchange");
 					break;
 				}
